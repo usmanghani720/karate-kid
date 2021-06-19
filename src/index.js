@@ -1,26 +1,17 @@
-import React from "react";
-import { render } from "react-dom";
-import { Provider } from "react-redux";
-import { ConnectedRouter } from "react-router-redux";
-import App from "./components/app";
-import store, { history } from "./stores";
-import { ActionCableProvider } from "react-actioncable-provider";
-import Defender from "./helpers/defender";
-import registerServiceWorker from "./registerServiceWorker";
-import "antd/dist/antd.css";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-const actionCableUrl = "ws://localhost:3000/cable";
-const token = "?token=" + Defender.token();
-render(
-  <Provider store={store}>
-    <ConnectedRouter history={history}>
-      <React.Fragment>
-        <ActionCableProvider url={actionCableUrl + token}>
-          <App />
-        </ActionCableProvider>
-      </React.Fragment>
-    </ConnectedRouter>
-  </Provider>,
-  document.getElementById("home")
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
-registerServiceWorker();
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
