@@ -5,7 +5,7 @@
 
 ### `Check Latest Node Version`
 
-nvm install version
+nvm install version.\
 nvm install 12.14.0
 
 
