@@ -1,0 +1,24 @@
+@mixin responsive-image{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+@mixin font($size, $lineHeight){
+	font-size: $size;
+	line-height: $lineHeight;
+}
+
+@mixin anim($delay){
+	-webkit-transition: all $delay;
+	-moz-transition: all $delay;
+	transition: all $delay;
+}
+
+@mixin crossBrowser($property, $css) {
+	-webkit-#{$property} : $css;
+	-moz-#{$property} : $css;
+	-o-#{$property} : $css;
+	#{$property} : $css;
+}
+
