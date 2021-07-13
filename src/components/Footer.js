@@ -4,12 +4,22 @@ import logo from '../images/logo.svg';
 import { IoMdCall } from 'react-icons/io';
 
 
-class Header extends React.Component {
+class Footer extends React.Component {
 	render() {
 		return (
-			<div id="header">
-				<div className="header-top">
+			<div id="footer">
+				<div className="footer-top">
 					<div className="container">
+						<div className="footer-logo">
+							<a href="/"><img src={logo} alt="Logo" /></a>
+						</div>
+
+
+						<MainNav />
+
+
+
+
 						<dl>
 							<dt><address>6702 Parkside Drive Parkland, FL 33067</address></dt>
 							<dd>
@@ -30,16 +40,13 @@ class Header extends React.Component {
 						</dl>
 					</div>
 				</div>
-				<div className="header-bottom">
+				<div className="footer-bottom">
 					<div className="container">
-						<div className="logo">
-							<a href="/"><img src={logo} alt="Logo" /></a>
-						</div>
-						<MainNav />
+						<p>Copyright &copy; 2011,  All Rights Reserved. All Material is Property of <a href="/">Evolution Martial Arts</a></p>
 					</div>
 				</div>
 			</div>
 		);
 	}
 }
-export default Header;
+export default Footer;

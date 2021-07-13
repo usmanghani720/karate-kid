@@ -35,6 +35,10 @@ q:before, q:after {
 }
 a{
 	text-decoration: none;
+	@include anim(0.5s);
+	&:hover{
+		color: #fd1812;
+	}
 }
 table {
 	border-collapse: collapse;

@@ -9,6 +9,11 @@
 	line-height: $lineHeight;
 }
 
+@mixin display($display, $vAlign){
+	display: $display;
+	vertical-align: $vAlign;
+}
+
 @mixin anim($delay){
 	-webkit-transition: all $delay;
 	-moz-transition: all $delay;
