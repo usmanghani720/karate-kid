@@ -1,8 +1,7 @@
 import React from 'react';
-import MainNav from './menu/main-nav';
-import logo from '../images/logo.svg';
+import MainNav from '../menu/main-nav';
+import logo from '../../images/logo.svg';
 import { IoMdCall } from 'react-icons/io';
-
 
 class Header extends React.Component {
 	render() {

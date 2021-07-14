@@ -3,7 +3,7 @@ import React from 'react';
 class Gallery extends React.Component {
 	render() {
 		return (
-			<div id="Gallery">
+			<div id="gallery">
 				Gallery
 			</div>
 		);
