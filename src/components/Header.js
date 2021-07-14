@@ -7,7 +7,7 @@ import { IoMdCall } from 'react-icons/io';
 class Header extends React.Component {
 	render() {
 		return (
-			<div id="header">
+			<header id="header">
 				<div className="header-top">
 					<div className="container">
 						<dl>
@@ -38,7 +38,7 @@ class Header extends React.Component {
 						<MainNav />
 					</div>
 				</div>
-			</div>
+			</header>
 		);
 	}
 }

@@ -7,7 +7,7 @@ import { IoMdCall } from 'react-icons/io';
 class Footer extends React.Component {
 	render() {
 		return (
-			<div id="footer">
+			<footer id="footer">
 				<div className="footer-top">
 					<div className="container">
 						<div className="footer-logo">
@@ -45,7 +45,7 @@ class Footer extends React.Component {
 						<p>Copyright &copy; 2011,  All Rights Reserved. All Material is Property of <a href="/">Evolution Martial Arts</a></p>
 					</div>
 				</div>
-			</div>
+			</footer>
 		);
 	}
 }
