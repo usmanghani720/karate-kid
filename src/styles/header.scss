@@ -69,20 +69,6 @@
     ul{
       li{
         float: left;
-        &:hover{
-          a{
-            color: #fff;
-            background-color: #fd1812;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-          }
-        }
-        &.active{
-          a{
-            color: #fff;
-            background-color: #fd1812;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-          }
-        }
       }
       a{
         display: block;
@@ -91,6 +77,16 @@
         border-radius: 5px;
         padding: 17px 20px;
         @include anim(0.5s);
+        &:hover{
+          color: #fff;
+          background-color: #fd1812;
+          box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        &.active{
+          color: #fff;
+          background-color: #fd1812;
+          box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
       }
     }
   }

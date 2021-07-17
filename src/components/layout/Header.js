@@ -1,25 +1,14 @@
 import React from 'react';
-import MainNav from './menu/main-nav';
-import logo from '../images/logo.svg';
+import MainNav from '../menu/main-nav';
+import logo from '../../images/logo.svg';
 import { IoMdCall } from 'react-icons/io';
 
-
-class Footer extends React.Component {
+class Header extends React.Component {
 	render() {
 		return (
-			<div id="footer">
-				<div className="footer-top">
+			<header id="header">
+				<div className="header-top">
 					<div className="container">
-						<div className="footer-logo">
-							<a href="/"><img src={logo} alt="Logo" /></a>
-						</div>
-
-
-						<MainNav />
-
-
-
-
 						<dl>
 							<dt><address>6702 Parkside Drive Parkland, FL 33067</address></dt>
 							<dd>
@@ -40,13 +29,16 @@ class Footer extends React.Component {
 						</dl>
 					</div>
 				</div>
-				<div className="footer-bottom">
+				<div className="header-bottom">
 					<div className="container">
-						<p>Copyright &copy; 2011,  All Rights Reserved. All Material is Property of <a href="/">Evolution Martial Arts</a></p>
+						<div className="logo">
+							<a href="/"><img src={logo} alt="Logo" /></a>
+						</div>
+						<MainNav />
 					</div>
 				</div>
-			</div>
+			</header>
 		);
 	}
 }
-export default Footer;
+export default Header;

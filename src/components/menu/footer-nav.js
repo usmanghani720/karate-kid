@@ -3,17 +3,16 @@ import { NavLink } from "react-router-dom";
 
 const menuList = [
 	{ listName: 'Home', listUrl: '/' },
-	{ listName: 'Members', listUrl: '/members' },
-	{ listName: 'Principles', listUrl: '/principles' },
-	{ listName: 'Belt Requirements', listUrl: '/belt-requirements' },
-	{ listName: 'Calendar & Schedule', listUrl: '/calendar-schedule' },
-	{ listName: 'Gallery', listUrl: '/gallery' }
+	{ listName: 'About Us', listUrl: '/about-us' },
+	{ listName: 'Program', listUrl: '/program' },
+	{ listName: 'Team', listUrl: '/team' },
+	{ listName: 'Contact Us', listUrl: '/contact-us' },
 ];
 
-class MainNav extends React.Component {
+class FooterNav extends React.Component {
 	render() {
 		return (
-				<nav id="main-nav">
+				<nav id="footer-nav">
 					<ul>
 						{
 							menuList.map(menuItem => (
@@ -25,4 +24,4 @@ class MainNav extends React.Component {
 		);
 	}
 }
-export default MainNav;
+export default FooterNav;
