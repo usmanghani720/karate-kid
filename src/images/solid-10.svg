@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52.755" height="59.822" viewBox="0 0 52.755 59.822">
+  <defs>
+    <filter id="Path_210" x="7.813" y="0" width="25.973" height="25.777" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fd1812" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_211" x="14.978" y="4.318" width="25.482" height="25.041" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#fd1812" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_212" x="19.763" y="8.637" width="26.845" height="27.991" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#fd1812" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_213" x="26.55" y="12.615" width="26.204" height="27.03" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="#fd1812" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_214" x="0" y="7.708" width="50.704" height="52.114" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#fd1812" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="fist" transform="translate(-39.256 4)">
+    <g transform="matrix(1, 0, 0, 1, 39.26, -4)" filter="url(#Path_210)">
+      <path id="Path_210-2" data-name="Path 210" d="M146.678,3.561a1.225,1.225,0,0,0-.354-1.708L143.765.2a1.225,1.225,0,0,0-1.685.349L138.911,5.3l4.956,2.478Z" transform="translate(-127.1 4)" fill="#fd1812"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 39.26, -4)" filter="url(#Path_211)">
+      <path id="Path_211-2" data-name="Path 211" d="M231.585,59.911l2.32-3.48a1.225,1.225,0,0,0-.354-1.708l-2.559-1.656a1.225,1.225,0,0,0-1.685.349l-2.678,4.017Z" transform="translate(-207.65 -44.55)" fill="#fd1812"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 39.26, -4)" filter="url(#Path_212)">
+      <path id="Path_212-2" data-name="Path 212" d="M285.928,114.627l2.244,1a1.225,1.225,0,0,0,1.517-.44l4.15-6.225a1.225,1.225,0,0,0-.354-1.708l-2.032-1.315a1.225,1.225,0,0,0-1.685.349l-4.362,6.543a1.225,1.225,0,0,0,.522,1.8Z" transform="translate(-261.44 -93.1)" fill="#fd1812"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 39.26, -4)" filter="url(#Path_213)">
+      <path id="Path_213-2" data-name="Path 213" d="M375.945,155.949l-2.032-1.315a1.225,1.225,0,0,0-1.685.349l-3.721,5.582a1.225,1.225,0,0,0,.522,1.8l2.244,1a1.225,1.225,0,0,0,1.517-.44l3.509-5.264A1.225,1.225,0,0,0,375.945,155.949Z" transform="translate(-337.75 -137.82)" fill="#fd1812"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 39.26, -4)" filter="url(#Path_214)">
+      <path id="Path_214-2" data-name="Path 214" d="M73.276,110.75h0a3.651,3.651,0,0,1-1.492-.317l-11.45-5.089h-.774l5.147,10.294a1.225,1.225,0,0,1-.6,1.669,1.248,1.248,0,0,1-1.606-.6l-5.68-11.359H51.578a1.248,1.248,0,0,1-1.258-1.166,1.225,1.225,0,0,1,1.224-1.284h7.739a1.225,1.225,0,0,0,1.019-.546l.75-1.124a1.225,1.225,0,0,0-.472-1.776l-9.912-4.956a1.225,1.225,0,0,0-1.567.416l-5.638,8.457a1.225,1.225,0,0,0,.035,1.409l9.031,12.191a1.225,1.225,0,0,1,.2,1.026l-2.241,8.962a1.225,1.225,0,0,0,1.189,1.522H70.21a1.225,1.225,0,0,0,1.225-1.225v-6.54a1.225,1.225,0,0,1,.544-1.018l.762-.509a7.214,7.214,0,0,0,3.219-6.015v-3.586A3.666,3.666,0,0,1,73.276,110.75Z" transform="translate(-39.26 -82.66)" fill="#fd1812"/>
+    </g>
+  </g>
+</svg>

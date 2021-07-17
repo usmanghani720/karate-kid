@@ -12,7 +12,7 @@ const menuList = [
 class FooterNav extends React.Component {
 	render() {
 		return (
-				<nav id="footer-nav">
+				<nav id="footer-nav" className="footer-nav">
 					<ul>
 						{
 							menuList.map(menuItem => (
