@@ -1,0 +1,150 @@
+/*Calendar&Schedule page css start*/
+.parkland-box-holder{
+	overflow: hidden;
+	text-align: center;
+	padding: 0 0 75px;
+	.parkland-box{
+		float: left;
+		width: 50%;
+		padding: 0 50px;
+		.image-holder{
+			margin: 0 0 20px;
+		}
+		img{
+			@include responsive-image();
+		}
+	}
+	h2{
+		@include font(32px, 35px);
+		font-weight: bold;
+		margin: 0 0 50px;
+	}
+	h4{
+		text-align: center;
+		a{
+			display: block;
+			color: $socialColor;
+			@include font(32px, 35px);
+			@include anim(0.5s);
+			&:hover{
+				color: $themeColor;
+			}
+		}
+	}
+}
+/*Calendar&Schedule page css end*/
+
+/*Gallery Page Start*/
+.gallery-section2{
+	overflow: hidden;
+	text-align: center;
+	.image-holder{
+		padding: 50px;
+		img{
+			@include responsive-image();
+		}
+	}
+	.photo-gallery{
+		float: left;
+		width: 50%;
+	}
+	.video-gallery{
+		float: right;
+		width: 50%;
+	}
+	a{
+		@include display(inline-block, top);
+		color: $socialColor;
+		@include font(32px, 35px);
+		&:hover{
+			color: $themeColor;
+		}
+	}
+}
+.gallery-section3{
+	text-align: center;
+	padding: 75px 0;
+	p{
+		@include font(22px, 25px);
+		margin: 0 0 20px;
+	}
+	.youtube-holder{
+		display: block;
+		height: 500px;
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+/*Gallery Page End*/
+
+
+.belt-requirements{
+	text-align: center;
+	.belt-section{
+		margin: 0 0 50px;
+	}
+	.intent-section{
+		margin: 0 0 50px;
+	}
+	.form-section{
+		margin: 0 0 50px;
+	}
+	h2{
+		@include font(32px, 35px);
+		font-weight: bold;
+		margin: 0 0 30px;
+	}
+	ul{
+		li{
+			@include display(inline-block, top);
+			width: 20%;
+			padding: 15px;
+			&:hover{
+				img{
+					@include crossBrowser(transform, scale(1.2));
+				}
+				h5{
+					color: $themeColor;
+				}
+			}
+		}
+	}
+	.belt-list-holder{
+		background-color: $lightColor;
+	}
+	.belt-icon-holder{
+		@include display(inline-block, top);
+		padding: 20px;
+		img{
+			display: block;
+			height: 100px;
+			width: 100px;
+			@include anim(0.5s);
+		}
+	}
+	h5{
+		@include font(16px, 20px);
+		box-shadow: 0 -1px 4px rgba(0,0,0,0.1);
+		padding: 15px;
+		@include anim(0.5s);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

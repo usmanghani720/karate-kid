@@ -1,13 +1,13 @@
 #header {
-  background: #fff;
+  background: $lightColor;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   .header-top {
-    background-color: #1e2631;
+    background-color: $headerTopColor;
     text-align: right;
     padding: 8px 0;
     dl{
       @include display(inline-block, middle);
-      color: #fff;
+      color: $lightColor;
       @include font(15px, 18px);
       margin-left: 60px;
     }
@@ -19,24 +19,24 @@
       @include display(inline-block, middle);
       a{
         display: block;
-        color: #fff;
+        color: $lightColor;
         @include anim(0.5s);
         &:hover{
-          color: #fd1812;
+          color: $themeColor;
         }
       }
       strong{
         @include display(inline-block, middle);
-        border: 3px solid #fd1812;
+        border: 3px solid $themeColor;
         border-radius: 50%;
-        background-color: #fff;
+        background-color: $lightColor;
         height: 20px;
         width: 20px;
         padding: 2px;
         margin-right: 5px;
         svg{
           display: block;
-          color: #fd1812;
+          color: $themeColor;
           height: 100%;
           width: 100%;
         }
@@ -72,19 +72,19 @@
       }
       a{
         display: block;
-        color: #1e2631;
+        color: $headerNavColor;
         @include font(24px, 28px);
         border-radius: 5px;
         padding: 17px 20px;
         @include anim(0.5s);
         &:hover{
-          color: #fff;
-          background-color: #fd1812;
+          color: $lightColor;
+          background-color: $themeColor;
           box-shadow: 0 0 10px rgba(0,0,0,0.2);
         }
         &.active{
-          color: #fff;
-          background-color: #fd1812;
+          color: $lightColor;
+          background-color: $themeColor;
           box-shadow: 0 0 10px rgba(0,0,0,0.2);
         }
       }

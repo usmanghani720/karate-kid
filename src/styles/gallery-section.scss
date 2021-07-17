@@ -1,0 +1,49 @@
+/*gallery page css start*/
+.gallery-section {
+	margin: 75px 0;
+	ul{
+		li{
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+	}
+	.gallery-bg-holder{
+		overflow: hidden;
+		position: relative;
+		height: 290px;
+		text-align: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		@include anim(0.5s);
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+	.gallery-text-holder{
+		position: absolute;
+		top: 50%;
+		left: 10px;
+		right: 10px;
+		@include crossBrowser(transform, translateY(-50%));
+		h4{
+			color: $lightColor;
+			@include font(32px, 35px);
+			font-weight: bold;
+			margin: 0 0 5px;
+		}
+		p{
+			color: $lightColor;
+			@include font(22px, 25px);
+		}
+	}
+	.gallery-section-top{
+		overflow: hidden;
+	}
+	.gallery-section-bottom{
+		overflow: hidden;
+		padding: 5px;
+	}
+}
+/*gallery page css end*/

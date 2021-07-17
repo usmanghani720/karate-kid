@@ -1,24 +1,27 @@
 #footer{
   .footer-top{
-    background-color: #1e2631;
-    padding: 30px 0;
+    background-color: $footerTopColor;
+    padding: 50px 0;
   }
   .footer-logo{
     float: left;
-    width: 330px;
+    width: 20%;
     img{
       @include responsive-image();
     }
   }
   .footer-column{
     float: left;
-    max-width: 380px;
+    width: 22%;
     padding: 0 60px;
+    &.address-column{
+      width: 36%;
+    }
     h6{
       color: rgba(246, 247, 251, 0.8);
       @include font(32px, 35px);
       font-weight: bold;
-      margin: 0 0 20px;
+      margin: 0 0 25px;
     }
     p{
       color: #bbb;
@@ -26,14 +29,85 @@
       font-weight: 500;
       margin: 0 0 20px;
     }
+    .footer-nav{
+      li{
+        margin: 0 0 10px;
+      }
+      a{
+        color: #bbb;
+        @include font(24px, 28px);
+        font-weight: 500;
+        @include anim(0.5s);
+        &:hover{
+          color: $themeColor;
+        }
+        &.active{
+          color: $themeColor;
+        }
+      }
+    }
+    dl{
+      overflow: hidden;
+      margin: 0 0 5px;
+      dt{
+        float: left;
+        svg{
+          color: $themeColor;
+          @include font(40px, 40px);
+        }
+      }
+      dd{
+        overflow: hidden;
+        padding: 0 5px;
+      }
+      a{
+        display: block;
+        color: #bbb;
+        @include font(24px, 28px);
+        font-weight: 500;
+        @include anim(0.5s);
+        &:hover{
+          color: $themeColor;
+        }
+        &.active{
+          color: $themeColor;
+        }
+      }
+    }
+    .social-nav{
+      margin: 15px 0 0;
+      li{
+        float: left;
+        margin-right: 20px;
+      }
+      a{
+        display: block;
+        color: $lightColor;
+        background-color: $socialColor;
+        box-shadow: 0 5px 15px rgba(255,255,255,0.1);
+        border-radius: 3px;
+        text-align: center;
+        padding: 10px;
+        @include anim(0.5s);
+        &:hover{
+          background-color: $themeColor;
+          @include crossBrowser(transform, scale(1.1))
+        }
+        &.active{
+          background-color: $themeColor;
+          @include crossBrowser(transform, scale(1.1))
+        }
+        svg{
+          @include display(inline-block, middle);
+          height: 24px;
+          width: 24px;
+        }
+      }
+    }
   }
-
-
-
-
   .footer-bottom{
     text-align: center;
-    background-color: #24272e;
+    background-color: $footerBottomColor;
     padding: 30px 0;
     p{
       color: rgba(246, 247, 251, 0.5);
@@ -44,7 +118,7 @@
     a{
       color: rgba(246, 247, 251, 0.5);
       &:hover{
-        color: #fd1812;
+        color: $themeColor;
       }
     }
   }
