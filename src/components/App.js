@@ -26,18 +26,18 @@ function App() {
 				<div className="container">
 					<Switch>
 						<Route exact path="/"><Home /></Route>
-						<Route path="/members"><Members /></Route>
-						<Route path="/principles"><Principles /></Route>
-						<Route path="/belt-requirements"><BeltRequirements /></Route>
-						<Route path="/calendar-schedule"><CalendarSchedule /></Route>
-						<Route path="/gallery"><Gallery /></Route>
+						<Route exact path="/members"><Members /></Route>
+						<Route exact path="/principles"><Principles /></Route>
+						<Route exact path="/belt-requirements"><BeltRequirements /></Route>
+						<Route exact path="/calendar-schedule"><CalendarSchedule /></Route>
+						<Route exact path="/gallery"><Gallery /></Route>
 
-						<Route path="/about-us"><AboutUs /></Route>
-						<Route path="/program"><Program /></Route>
-						<Route path="/team"><Team /></Route>
-						<Route path="/contact-us"><ContactUs /></Route>
+						<Route exact path="/about-us"><AboutUs /></Route>
+						<Route exact path="/program"><Program /></Route>
+						<Route exact path="/team"><Team /></Route>
+						<Route exact path="/contact-us"><ContactUs /></Route>
 
-						<Route path="*"><Error /></Route>
+						<Route exact path="*"><Error /></Route>
 					</Switch>
 				</div>
 			</main>

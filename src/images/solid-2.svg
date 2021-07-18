@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.607" height="50.607" viewBox="0 0 50.607 50.607">
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="432.236 232.672 32.604 32.612" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="Path_163" x="17.262" y="27.812" width="33.344" height="22.795" filterUnits="userSpaceOnUse">
       <feOffset dx="5" dy="5" input="SourceAlpha"/>
@@ -36,7 +37,7 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="tolerance" transform="translate(4 4)">
+  <g id="tolerance" transform="matrix(1, 0, 0, 1, 432.235535, 232.673935)">
     <g transform="matrix(1, 0, 0, 1, -4, -4)" filter="url(#Path_163)">
       <path id="Path_163-2" data-name="Path 163" d="M270,435h15.344v4.8H270Z" transform="translate(-248.74 -403.19)" fill="#fd1812"/>
     </g>
