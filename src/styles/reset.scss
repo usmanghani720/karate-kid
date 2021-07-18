@@ -58,8 +58,8 @@ body {
 	position: relative;
 }
 .container {
-	overflow: hidden;
 	max-width: $mainHolderWidth;
 	padding: 0 15px;
 	margin: 0 auto;
+	@include clearfix();
 }

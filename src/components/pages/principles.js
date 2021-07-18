@@ -3,9 +3,9 @@ import React from 'react';
 import GallerySection from "./gallery-section";
 import ReactPlayer from "react-player";
 
-import imageMainPrincipal from "../../images/p1.svg";
+import imageMainPrincipal from "../../images/p1.png";
 import iconStdC from "../../images/student.svg";
-import iconVision1 from "../../images/Solid-1.svg";
+import iconVision1 from "../../images/solid-1.svg";
 import iconVision2 from "../../images/solid-2.svg";
 import iconVision3 from "../../images/solid-3.svg";
 import iconVision4 from "../../images/solid-4.svg";
@@ -110,81 +110,79 @@ const ourVisionList = [
 	}
 ];
 
-
-
-
-
 class Principles extends React.Component {
 	render() {
 		return (
 			<div id="principles">
 				<GallerySection />
 
-				<div className="main-principle-box">
-					<div className="principle-box">
-						<h1>Main Principle</h1>
-						<p>In the broad spectrum of martial arts styles, our style of Tae Kwon Do is referred to as
-							"Freestyle Tae Kwon Do." This means that we have chosen to incorporate techniques
-							from other styles into our curriculum in order to provide you with the best martial arts
-							training possible. We have carefully selected the techniques from different systems that
-							are effective, practical and beneficial for your martial arts education.
-							This evolving philosophy is the essence of Evolution Martial Arts.</p>
-						<p>
-							Evolution Martial Arts is a blended system called mixed martial arts. With a base of
-							Tae Kwon Do (TKD), we incorporate techniques from Brazilian Jujitsu,
-							Israeli Self Defense (Krav Maga), Shorin Ryu Karate, Kobudo Weapons, Shoalin Temple Boxing Kung Fu,
-							Western Boxing and Muay Thai. TKD is a Korean style of martial art that came to the
-							USA as a result of Americans' exposure to it during the Korean War. TKD, which means
-							"The way of foot and hand", is the most popular style of martial arts practiced in the USA.
-							Evolution Martial arts is a mixed martial arts system." This means that we have chosen to incorporate
-							techniques from other styles into our curriculum in order to provide you with the best martial arts
-							training
-							possible.</p>
-						<img src={imageMainPrincipal} />
-
-					</div>
+				<section className="main-principle-section">
+					<article className="principle-article">
+						<div className="principle-content-holder">
+							<h2>Main Principle</h2>
+							<p>In the broad spectrum of martial arts styles, our style of Tae Kwon Do is referred to as
+								"Freestyle Tae Kwon Do." This means that we have chosen to incorporate techniques
+								from other styles into our curriculum in order to provide you with the best martial arts
+								training possible. We have carefully selected the techniques from different systems that
+								are effective, practical and beneficial for your martial arts education.
+								This evolving philosophy is the essence of Evolution Martial Arts.</p>
+							<p>Evolution Martial Arts is a blended system called mixed martial arts. With a base of
+								Tae Kwon Do (TKD), we incorporate techniques from Brazilian Jujitsu,
+								Israeli Self Defense (Krav Maga), Shorin Ryu Karate, Kobudo Weapons, Shoalin Temple Boxing Kung Fu,
+								Western Boxing and Muay Thai. TKD is a Korean style of martial art that came to the
+								USA as a result of Americans' exposure to it during the Korean War. TKD, which means
+								"The way of foot and hand", is the most popular style of martial arts practiced in the USA.
+								Evolution Martial arts is a mixed martial arts system." This means that we have chosen to incorporate
+								techniques from other styles into our curriculum in order to provide you with the best martial arts
+								training
+								possible.</p>
+						</div>
+						<div className="principle-image-holder">
+							<img src={imageMainPrincipal} />
+						</div>
+					</article>
 					<div className="student-box">
-						<div className="student-left-box">
-							<div className="youtube-holder">
-								<ReactPlayer wid url="https://www.youtube.com/watch?v=XL9Cpak6jyg" width='100%' height='100%' />
-							</div>
+						<div className="youtube-holder">
+							<ReactPlayer url="https://www.youtube.com/watch?v=XL9Cpak6jyg" width='100%' height='100%' />
 						</div>
-						<div className="student-right-box">
-							<h1>Student Creed</h1>
-
-							<div className="student-data">
-								<ul>
-									{
-										studentCreedList.map(studentCreed => (
-											<li key={studentCreed.studentCreedIcon}>
-												<div className="belt-list-holder">
-													<div className="belt-icon-holder">
-														<img src={studentCreed.studentCreedIcon} />
-													</div>
-													<p>{studentCreed.studentCreedTitle}</p>
+						<div className="student-creed-holder">
+							<h2>Student Creed</h2>
+							<ul>
+								{
+									studentCreedList.map(studentCreed => (
+										<li key={studentCreed.studentCreedIcon}>
+											<div className="student-creed-list-holder">
+												<div className="student-creed-icon-holder">
+													<img src={studentCreed.studentCreedIcon} />
 												</div>
-											</li>
-										))
-									}
-								</ul>
-							</div>
+												<p>{studentCreed.studentCreedTitle}</p>
+											</div>
+										</li>
+									))
+								}
+							</ul>
 						</div>
 					</div>
-				</div>
+				</section>
 
-				<div className="our-vision-box">
-					<div className="vision-first-row">
+				<section className="our-vision-section">
+					<h2>Our Vision</h2>
+					<ul>
 						{
 							ourVisionList.map(ourVisionItem => (
-								<div key={ourVisionItem.ourVisionIcon} className="vision-box">
-									<img src={ourVisionItem.ourVisionIcon} />
-									<h6>{ourVisionItem.ourVisionTitle}</h6>
-									<p>{ourVisionItem.ourVisionParagraph}</p>
-								</div>
+								<li key={ourVisionItem.ourVisionIcon}>
+									<div className="vision-box">
+										<div className="vision-icon-holder">
+											<img src={ourVisionItem.ourVisionIcon} />
+										</div>
+										<h3>{ourVisionItem.ourVisionTitle}</h3>
+										<p>{ourVisionItem.ourVisionParagraph}</p>
+									</div>
+								</li>
 							))
 						}
-					</div>
-				</div>
+					</ul>
+				</section>
 			</div>
 		);
 	}
