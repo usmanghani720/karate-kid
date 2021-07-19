@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 
 import imageMainPrincipal from "../../images/p1.png";
 import iconStdC from "../../images/student.svg";
-import iconVision1 from "../../images/solid-1.svg";
+import iconVision1 from "../../images/solid-2.svg";
 import iconVision2 from "../../images/solid-2.svg";
 import iconVision3 from "../../images/solid-3.svg";
 import iconVision4 from "../../images/solid-4.svg";
