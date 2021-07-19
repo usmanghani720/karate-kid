@@ -2,7 +2,7 @@
 .parkland-box-holder{
 	overflow: hidden;
 	text-align: center;
-	padding: 0 0 75px;
+	padding: 50px 0;
 	.parkland-box{
 		float: left;
 		width: 50%;
@@ -249,7 +249,7 @@
 /*Principle Page End*/
 
 /*Home Page Start*/
-.banner {
+.banner-section {
 	position: relative;
 	height: 860px;
 	&:before {
@@ -294,10 +294,9 @@
 		}
 	}
 }
-
-.about-box {
+.about-section {
 	text-align: center;
-	margin: 0 0 75px;
+	padding: 50px 0;
 	@include clearfix();
 	h6 {
 		@include display(inline-block, top)
@@ -341,7 +340,7 @@
 }
 .offer-section {
 	text-align: center;
-	margin: 0 0 75px;
+	padding: 50px 0;
 	@include clearfix();
 	h6 {
 		@include display(inline-block, top);
@@ -397,8 +396,7 @@
 		}
 	}
 }
-
-.traning-section{
+.training-section{
 	position: relative;
 	text-align: center;
 	padding: 50px;
@@ -429,7 +427,6 @@
 		margin: 0;
 	}
 }
-
 .training-box-section{
 	margin: 0 0 100px;
 	@include clearfix();
@@ -470,10 +467,9 @@
 		}
 	}
 }
-
 .meet-section{
 	text-align: center;
-	margin: 0 0 75px;
+	padding: 50px 0;
 	@include clearfix();
 	h2{
 		@include display(inline-block, top);
@@ -530,8 +526,7 @@
 		}
 	}
 }
-
-.information-box{
+.information-section{
 	position: relative;
 	padding: 50px;
 	@include clearfix();
@@ -674,8 +669,60 @@
 }
 /*Home Page Start*/
 
-
-
+/*Sidebar Start*/
+.sidebar{
+	position: fixed;
+	top: 175px;
+	left: 0;
+	z-index: 99;
+	.sidebar-top{
+		border-radius: 7px;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	}
+	.sidebar-bottom{
+		border-radius: 7px;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		margin: 30px 0 0;
+	}
+	ul{
+		li{
+			border-bottom: 1px solid $themeColor;
+			&:last-child{
+				border-bottom: none;
+			}
+			&:hover{
+				.sidebar-menu-item{
+					background-color: $themeColor;
+				}
+			}
+		}
+		.selected{
+			.sidebar-menu-item{
+				background-color: $themeColor;
+			}
+		}
+	}
+	.sidebar-menu-item{
+		background-color: $lightColor;
+		text-align: center;
+		width: 120px;
+		padding: 15px 5px;
+		@include anim(0.5s);
+		img{
+			@include display(inline-block, top);
+			height: 50px;
+			width: 50px;
+		}
+		h3{
+			color: $themeDarkBlueColor;
+			@include font(18px, 22px);
+			margin: 5px 0 0;
+		}
+	}
+}
+/*Sidebar End*/
 
 
 

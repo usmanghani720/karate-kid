@@ -12,7 +12,7 @@ class CalendarSchedule extends React.Component {
 			<div id="calendar-schedule">
 				<GallerySection />
 
-				<div className="parkland-box-holder">
+				<div id="parkland-block" className="parkland-box-holder">
 					<h2>ParkLand Calendar&Schedule</h2>
 					<div className="parkland-box">
 						<div className="image-holder">
@@ -28,7 +28,7 @@ class CalendarSchedule extends React.Component {
 					</div>
 				</div>
 
-				<div className="parkland-box-holder">
+				<div id="sunrise-block" className="parkland-box-holder">
 					<h2>Sunrise Calendar&Schedule</h2>
 					<div className="parkland-box">
 						<div className="image-holder">

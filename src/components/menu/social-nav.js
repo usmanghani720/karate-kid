@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
-
 const menuList = [
 	{
 		socialIcon: <FaFacebookF />,

@@ -29,7 +29,7 @@ const galleryList = [
 class GallerySection extends React.Component {
 	render() {
 		return (
-			<div id="gallery-section">
+			<section id="gallery-section" className="gallery-section">
 				<div className="gallery-section">
 					<div className="gallery-section-top">
 						<ul>
@@ -57,7 +57,7 @@ class GallerySection extends React.Component {
 							</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		);
 	}
 }
