@@ -37,7 +37,6 @@ const trainingList = [
 
 function hide(event){
 	event.target.parentElement.parentElement.classList.add("active");
-//	this.event.parentNode.classList.add("active");
 }
 
 class TrainingBoxSection extends React.Component {

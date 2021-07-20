@@ -29,13 +29,13 @@
 		@include crossBrowser(transform, translateY(-50%));
 		h4{
 			color: $lightColor;
-			@include font(32px, 35px);
+			@include font($fs4, $lh4);
 			font-weight: bold;
 			margin: 0 0 5px;
 		}
 		p{
 			color: $lightColor;
-			@include font(22px, 25px);
+			@include font($fs2, $lh2);
 		}
 	}
 	.gallery-section-top{
