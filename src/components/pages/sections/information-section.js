@@ -39,7 +39,7 @@ class InformationSection extends React.Component {
 									<input type="text" name="fname" placeholder="No Preference" />
 								</div>
 								<div className="input-holder">
-									<strong>Intrests</strong>
+									<strong>Interests</strong>
 									<div className="checkbox-holder">
 										<div className="form-group">
 											<input type="checkbox" id="html" />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import GallerySection from "./gallery-section";
 import InformationSection from "./sections/information-section";
@@ -11,20 +11,32 @@ import BannerSection from "./sections/banner-section";
 import Sidebar from "./sections/sidebar-section";
 
 class Home extends React.Component {
-	render() {
-		return (
-			<div id="home">
-				<Sidebar />
-				<BannerSection />
-				<GallerySection />
-				<AbooutBoxSection />
-				<WeOfferSection />
-				<TrainingSection />
-				<TrainingBoxSection />
-				<MeetSection />
-				<InformationSection />
-			</div>
-		);
-	}
+  state = {
+    showModal: false,
+  };
+
+  componentDidMount() {
+      setTimeout(() => {
+        this.setState({showModal: true})
+      }, 3000);
+
+  }
+  render() {
+    return (
+      <div id="home">
+        <Sidebar />
+        <BannerSection />
+        <GallerySection />
+        <AbooutBoxSection />
+        <WeOfferSection />
+        <TrainingSection />
+		{this.state.showModal ?
+        	<TrainingBoxSection />
+		: null}
+        <MeetSection />
+        <InformationSection />
+      </div>
+    );
+  }
 }
 export default Home;
