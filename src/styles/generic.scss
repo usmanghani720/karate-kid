@@ -2,7 +2,7 @@
 .parkland-box-holder{
 	overflow: hidden;
 	text-align: center;
-	padding: 0 0 75px;
+	padding: 50px 0;
 	.parkland-box{
 		float: left;
 		width: 50%;
@@ -247,6 +247,554 @@
 	}
 }
 /*Principle Page End*/
+
+/*Home Page Start*/
+.banner-section {
+	position: relative;
+	height: 860px;
+	&:before {
+		content: '';
+		display: block;
+		background: url("../images/banner.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: absolute;
+		top: 0;
+		left: -300px;
+		right: -300px;
+		bottom: 0;
+		z-index: -9;
+	}
+	.caption {
+		float: left;
+		max-width: 800px;
+		margin: 60px 0;
+		h1 {
+			font-size: 65px;
+			color: #fff;
+			line-height: 95px;
+			margin: 0;
+		}
+		p {
+			color: #fff;
+			font-size: 24px;
+			line-height: 36px;
+			font-weight: 300;
+			&.welcome {
+				font-size: 60px;
+				color: $themeColor;
+				font-weight: 300;
+				margin: 0;
+				padding: 20px 0;
+			}
+			span {
+				color: $themeColor;
+			}
+		}
+	}
+}
+.about-section {
+	text-align: center;
+	padding: 50px 0;
+	@include clearfix();
+	h6 {
+		@include display(inline-block, top)
+		@include font(50px, 60px);
+		color: $themeDarkBlueColor;
+		border-bottom: 2px solid $socialColor;
+		margin: 0 0 20px;
+	}
+	article{
+		p {
+			@include font(32px, 40px);
+			color: $blackColor;
+			margin: 0;
+			padding: 0 0 50px;
+			font-weight: 300;
+		}
+	}
+	ul {
+		text-align: center;
+		margin: 50px 0;
+		padding: 0;
+		li {
+			@include display(inline-block, top)
+			width: 33%;
+			text-align: left;
+			padding: 10px 0;
+		}
+	}
+	.student-creed-list-holder{
+		img {
+			float: left;
+			@include crossBrowser(transform, rotate(200deg));
+			margin: 0 15px 0 0;
+		}
+		p {
+			@include font(26px, 30px);
+			font-weight: 100;
+			padding: 0 10px;
+		}
+	}
+}
+.offer-section {
+	text-align: center;
+	padding: 50px 0;
+	@include clearfix();
+	h6 {
+		@include display(inline-block, top);
+		@include font(50px, 60px);
+		color: $themeDarkBlueColor;
+		border-bottom: 2px solid $socialColor;
+		margin: 0 0 20px;
+	}
+	article{
+		max-width: 900px;
+		margin: 0 auto;
+		p {
+			color: $blackColor;
+			@include font(32px, 40px);
+			font-weight: 300;
+			margin: 0;
+		}
+	}
+	ul{
+		li{
+			@include font(20px, 26px);
+			@include display(inline-block, top);
+			width: 33.33%;
+			padding: 20px 30px;
+			&:hover{
+				.services-box{
+					box-shadow: 0 0 10px rgba(255,0,0,0.2);
+				}
+			}
+		}
+	}
+	.services-box{
+		position: relative;
+		color: $themeDarkBlueColor;
+		background-color: $lightColor;
+		box-shadow: 0 0 50px rgba(255,0,0,0.3);
+		min-height: 160px;
+		padding: 50px 20px 20px;
+		margin: 50px 0 0;
+		@include anim(0.5s);
+		p{
+			color: $themeDarkBlueColor;
+			@include font(24px, 30px);
+		}
+		img{
+			display: block;
+			height: 100px;
+			width: 100px;
+			position: absolute;
+			top: -50px;
+			left: 50%;
+			@include crossBrowser(transform, translateX(-50%));
+		}
+	}
+}
+.training-section{
+	position: relative;
+	text-align: center;
+	padding: 50px;
+	@include clearfix();
+	&:before{
+		content: '';
+		background-color: $themeDarkBlueColor2;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: -9999px;
+		right: -9999px;
+		z-index: -9;
+	}
+	.container{
+		max-width: 1000px;
+	}
+	h6 {
+		@include display(inline-block, top)
+		@include font(50px, 60px);
+		color: rgba(255,255,255,0.8);
+		margin: 0 0 20px;
+	}
+	p {
+		color: $lightColor;
+		@include font(24px, 40px);
+		font-weight: 300;
+		margin: 0;
+	}
+}
+.training-box-section{
+	margin: 0 0 100px;
+	@include clearfix();
+	ul{
+		li{
+			float: left;
+			width: 33.33%;
+			&:hover{
+				p{
+					height: 100%;
+					background-color: rgba(14,43,137,0.5);
+				}
+			}
+		}
+	}
+	.training-box{
+		position: relative;
+		height: 400px;
+		img{
+			display: block;
+			height: 100%;
+			width: 100%;
+			@include crossBrowser(object-fit, cover);
+		}
+		p{
+			color: $lightColor;
+			@include font(32px, 40px);
+			font-weight: 300;
+			text-align: center;
+			background-color: rgba(14,43,137,0.75);
+			height: 80px;
+			padding: 20px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			@include anim(0.5s);
+		}
+	}
+}
+.meet-section{
+	text-align: center;
+	padding: 50px 0;
+	@include clearfix();
+	h2{
+		@include display(inline-block, top);
+		@include font(50px, 60px);
+		color: $themeDarkBlueColor;
+		border-bottom: 2px solid $socialColor;
+		margin: 0 0 20px;
+	}
+	article{
+		max-width: 1000px;
+		margin: 0 auto 100px;
+		p{
+			color: $blackColor;
+			@include font(26px, 36px);
+			font-weight: 300;
+			margin: 0;
+		}
+	}
+	ul{
+		li{
+			@include display(inline-block, top);
+			width: 33.33%;
+			padding: 20px;
+			@include anim(0.5s);
+			&:hover{
+				@include crossBrowser(transform, scale(1.1));
+			}
+		}
+	}
+	.meet-box{
+		overflow: hidden;
+		position: relative;
+		color: $themeDarkBlueColor;
+		max-width: 350px;
+		padding: 0 0 100px;
+		margin: 0 auto;
+		img{
+			@include responsive-image();
+		}
+		.meet-box-details{
+			height: 100px;
+			padding: 20px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			h3{
+				@include font(24px, 30px);
+				font-weight: 400;
+			}
+			p{
+				@include font(16px, 20px);
+			}
+		}
+	}
+}
+.information-section{
+	position: relative;
+	padding: 50px;
+	@include clearfix();
+	&:before{
+		content: '';
+		background-color: $themeDarkBlueColor2;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: -9999px;
+		right: -9999px;
+		z-index: -9;
+	}
+	.info-text{
+		margin: 0 0 50px;
+		h4 {
+			@include display(inline-block, top);
+			@include font(50px, 60px);
+			color: $lightColor;
+			border-bottom: 2px solid $socialColor;
+			margin: 0 0 20px;
+		}
+		p {
+			color: $lightColor;
+			@include font(32px, 44px);
+			font-weight: 300;
+			margin: 0;
+		}
+		a{
+			color: $themeColor;
+			text-decoration: underline;
+			&:hover{
+				color: $bodyColor;
+			}
+		}
+	}
+	.info-form{
+		margin: 0 -20px;
+		ul{
+			li{
+				@include display(inline-block, top);
+				width: 50%;
+				padding: 0 20px;
+			}
+			.input-holder{
+				margin: 0 0 30px;
+			}
+			strong{
+				display: block;
+				color: $lightColor;
+				@include font(20px, 24px);
+				font-weight: bold;
+				margin: 0 0 15px;
+			}
+		}
+		input[type="text"],
+		input[type="password"],
+		input[type="search"],
+		input[type="email"]{
+			display: block;
+			color: $lightColor;
+			@include font(20px, 58px);
+			border: 1px solid $themeColor;
+			background-color: transparent;
+			border-radius: 2px;
+			height: 70px;
+			width: 100%;
+			padding: 5px 20px;
+		}
+		input[type="checkbox"]{
+			display: none;
+			height: 0;
+			width: 0;
+			&:checked +{
+				.custom-checkbox{
+					color: $themeColor;
+					+ label{
+						color: $themeColor;
+					}
+				}
+			}
+		}
+		.checkbox-holder{
+			padding: 10px 0 0;
+		}
+		.form-group{
+			margin: 0 0 20px;
+			.custom-checkbox{
+				@include display(inline-block, middle);
+				color: transparent;
+				@include font(24px, 28px);
+				text-align: center;
+				border-radius: 2px;
+				border: 1px solid $themeColor;
+				height: 30px;
+				width: 30px;
+				@include anim(0.5s);
+			}
+		}
+		label{
+			@include display(inline-block, middle);
+			color: rgba(187,187,187,0.8);
+			cursor: pointer;
+			margin: 0 10px;
+			@include anim(0.5s);
+			&:hover{
+				color: $themeColor;
+			}
+		}
+		textarea{
+			display: block;
+			color: $lightColor;
+			@include font(20px, 26px);
+			border: 1px solid $themeColor;
+			background-color: transparent;
+			border-radius: 2px;
+			height: 150px;
+			width: 100%;
+			padding: 15px 20px;
+			resize: none;
+		}
+		button{
+			display: block;
+			color: $lightColor;
+			@include font(26px, 32px);
+			font-weight: bold;
+			border: 1px solid $themeColor;
+			background-color: $themeColor;
+			border-radius: 5px;
+			cursor: pointer;
+			width: 100%;
+			padding: 20px 20px;
+			@include anim(0.5s);
+			&:hover{
+				color: $themeColor;
+				background-color: transparent;
+			}
+		}
+	}
+}
+/*Home Page Start*/
+
+/*Sidebar Start*/
+.sidebar{
+	position: fixed;
+	top: 175px;
+	left: 0;
+	z-index: 99;
+	.sidebar-top{
+		border-radius: 7px;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	}
+	.sidebar-bottom{
+		border-radius: 7px;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		margin: 30px 0 0;
+	}
+	ul{
+		li{
+			border-bottom: 1px solid $themeColor;
+			&:last-child{
+				border-bottom: none;
+			}
+			&:hover{
+				.sidebar-menu-item{
+					background-color: $themeColor;
+				}
+			}
+		}
+		.selected{
+			.sidebar-menu-item{
+				background-color: $themeColor;
+			}
+		}
+	}
+	.sidebar-menu-item{
+		background-color: $lightColor;
+		text-align: center;
+		width: 120px;
+		padding: 15px 5px;
+		@include anim(0.5s);
+		img{
+			@include display(inline-block, top);
+			height: 50px;
+			width: 50px;
+		}
+		h3{
+			color: $themeDarkBlueColor;
+			@include font(18px, 22px);
+			margin: 5px 0 0;
+		}
+	}
+}
+/*Sidebar End*/
+
+
+
+/*Popup Start*/
+.Popup{
+	padding: 50px;
+	background-color: $lightColor;
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 99;
+	@include crossBrowser(transform, translate(-50%,-50%));
+	visibility: visible;
+	opacity: 1;
+	@include anim(1s);
+	&.active{
+		visibility: hidden;
+		opacity: 0;
+		@include crossBrowser(transform, translate(-50%,-500%));
+	}
+	.popup-close-button{
+		display: block;
+		cursor: pointer;
+		@include font(32px, 32px);
+		height: 32px;
+		width: 32px;
+		position: absolute;
+		top: -16px;
+		right: -16px;
+		z-index: 99;
+	}
+	.popup-image-holder{
+		@include display(inline-block, middle);
+		overflow: hidden;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		width: 40%;
+		img{
+			@include responsive-image();
+		}
+	}
+	.popup-content-holder{
+		@include display(inline-block, middle);
+		width: 60%;
+		max-height: 300px;
+		overflow-y: auto;
+		padding: 0 0 0 50px;
+		h2{
+			@include font(32px, 36px);
+			margin: 0 0 15px;
+		}
+		p{
+			@include font(18px, 24px);
+			margin: 0 0 20px;
+			&:last-child{
+				margin: 0;
+			}
+		}
+	}
+}
+/*Popup End*/
+
+
+
+
+
+
+
+
+
 
 
 
