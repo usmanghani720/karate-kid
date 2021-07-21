@@ -258,7 +258,7 @@
 		background: url("../images/banner.svg");
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: center;
+		background-position: top center;
 		position: absolute;
 		top: 0;
 		left: -300px;
@@ -599,10 +599,12 @@
 			height: 0;
 			width: 0;
 			&:checked +{
-				.custom-checkbox{
-					color: $themeColor;
-					+ label{
+				.custom-checkbox-holder{
+					.custom-checkbox{
 						color: $themeColor;
+						+ strong{
+							color: $themeColor;
+						}
 					}
 				}
 			}
@@ -625,13 +627,15 @@
 			}
 		}
 		label{
-			@include display(inline-block, middle);
-			color: rgba(187,187,187,0.8);
-			cursor: pointer;
-			margin: 0 10px;
-			@include anim(0.5s);
-			&:hover{
-				color: $themeColor;
+			strong{
+				@include display(inline-block, middle);
+				color: rgba(187,187,187,0.8);
+				cursor: pointer;
+				margin: 0 10px;
+				@include anim(0.5s);
+				&:hover{
+					color: $themeColor;
+				}
 			}
 		}
 		textarea{

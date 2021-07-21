@@ -43,18 +43,24 @@ class InformationSection extends React.Component {
 									<div className="checkbox-holder">
 										<div className="form-group">
 											<input type="checkbox" id="html" />
-											<span className="custom-checkbox"><BiCheck /></span>
-											<label htmlFor="html">Kinderkicker (Ages 4-6)</label>
+											<label className="custom-checkbox-holder" htmlFor="html">
+												<span className="custom-checkbox"><BiCheck /></span>
+												<strong>Kinderkicker (Ages 4-6)</strong>
+											</label>
 										</div>
 										<div className="form-group">
 											<input type="checkbox" id="css" />
-											<span className="custom-checkbox"><BiCheck /></span>
-											<label htmlFor="css">Kids (Ages 7-11)</label>
+											<label className="custom-checkbox-holder" htmlFor="css">
+												<span className="custom-checkbox"><BiCheck /></span>
+												<strong>Kids (Ages 7-11)</strong>
+											</label>
 										</div>
 										<div className="form-group">
 											<input type="checkbox" id="javascript" />
-											<span className="custom-checkbox"><BiCheck /></span>
-											<label htmlFor="javascript">Teens/Adults</label>
+											<label className="custom-checkbox-holder" htmlFor="javascript">
+												<span className="custom-checkbox"><BiCheck /></span>
+												<strong>Teens/Adults</strong>
+											</label>
 										</div>
 									</div>
 								</div>
