@@ -19,13 +19,13 @@
     }
     h6{
       color: rgba(246, 247, 251, 0.8);
-      @include font(32px, 35px);
+      @include font($fs4, $lh4);
       font-weight: bold;
       margin: 0 0 25px;
     }
     p{
       color: #bbb;
-      @include font(24px, 28px);
+      @include font($fs3, $lh3);
       font-weight: 500;
       margin: 0 0 20px;
     }
@@ -35,7 +35,7 @@
       }
       a{
         color: #bbb;
-        @include font(24px, 28px);
+        @include font($fs3, $lh3);
         font-weight: 500;
         @include anim(0.5s);
         &:hover{
@@ -63,7 +63,7 @@
       a{
         display: block;
         color: #bbb;
-        @include font(24px, 28px);
+        @include font($fs3, $lh3);
         font-weight: 500;
         @include anim(0.5s);
         &:hover{
@@ -111,7 +111,7 @@
     padding: 30px 0;
     p{
       color: rgba(246, 247, 251, 0.5);
-      @include font(17px, 21px);
+      @include font($fs2, $lh2);
       font-weight: 100;
       letter-spacing: 1px;
     }

@@ -6,8 +6,6 @@ $bodyColor: #f5f1f1;
 $themeDarkBlueColor: #1e2631;
 $themeDarkBlueColor2: #181a1f;
 
-
-
 $headerTopColor: $themeDarkBlueColor;
 $headerNavColor: $themeDarkBlueColor;
 
@@ -15,13 +13,40 @@ $socialColor: #0e2b89;
 $footerTopColor: $themeDarkBlueColor;
 $footerBottomColor: #24272e;
 
-
-
-
-
 $mainFontFamily: 'Roboto', sans-serif;
-
 
 $mainHolderWidth: 1670px;
 
 
+$fs1: 14px;
+$fs2: 20px;
+$fs3: 26px;
+$fs4: 32px;
+$fs5: 50px;
+
+$lh1: 20px;
+$lh2: 26px;
+$lh3: 32px;
+$lh4: 36px;
+$lh5: 60px;
+
+
+/*
+@include font(14px, 20px);
+@include font(20px, 26px);
+@include font(26px, 32px);
+@include font(32px, 36px);
+@include font(50px, 60px);
+
+$fs1: 14px;
+$fs2: 20px;
+$fs3: 26px;
+$fs4: 32px;
+$fs5: 50px;
+
+$lh1: 20px;
+$lh2: 26px;
+$lh3: 32px;
+$lh4: 36px;
+$lh5: 60px;
+*/

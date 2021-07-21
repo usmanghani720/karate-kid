@@ -15,7 +15,7 @@
 		}
 	}
 	h2{
-		@include font(32px, 35px);
+		@include font($fs4, $lh4);
 		font-weight: bold;
 		margin: 0 0 50px;
 	}
@@ -24,7 +24,7 @@
 		a{
 			display: block;
 			color: $socialColor;
-			@include font(32px, 35px);
+			@include font($fs4, $lh4);
 			@include anim(0.5s);
 			&:hover{
 				color: $themeColor;
@@ -55,7 +55,7 @@
 	a{
 		@include display(inline-block, top);
 		color: $socialColor;
-		@include font(32px, 35px);
+		@include font($fs4, $lh4);
 		&:hover{
 			color: $themeColor;
 		}
@@ -65,7 +65,7 @@
 	text-align: center;
 	padding: 75px 0;
 	p{
-		@include font(22px, 25px);
+		@include font($fs2, $lh2);
 		margin: 0 0 20px;
 	}
 	.youtube-holder{
@@ -90,7 +90,7 @@
 		margin: 0 0 50px;
 	}
 	h2{
-		@include font(32px, 35px);
+		@include font($fs4, $lh4);
 		font-weight: bold;
 		margin: 0 0 30px;
 	}
@@ -123,7 +123,7 @@
 		}
 	}
 	h5{
-		@include font(16px, 20px);
+		@include font($fs1, $lh1);
 		box-shadow: 0 -1px 4px rgba(0,0,0,0.1);
 		padding: 15px;
 		@include anim(0.5s);
@@ -134,12 +134,12 @@
 /*Principle Page Start*/
 .main-principle-section{
 	h2{
-		@include font(30px, 34px);
+		@include font($fs4, $lh4);
 		font-weight: bold;
 		margin: 0 0 20px;
 	}
 	p{
-		@include font(20px, 26px);
+		@include font($fs2, $lh2);
 		margin: 0 0 20px;
 		&:last-child{
 			margin: 0;
@@ -203,13 +203,13 @@
 	margin: 0 0 75px;
 	@include clearfix();
 	h2{
-		@include font(30px, 34px);
+		@include font($fs4, $lh4);
 		font-weight: bold;
 		margin: 0 0 20px;
 	}
 	ul{
 		li{
-			@include font(20px, 26px);
+			@include font($fs2, $lh2);
 			@include display(inline-block, top);
 			width: 25%;
 			padding: 20px 10px;
@@ -237,10 +237,10 @@
 			}
 			h3{
 				@include display(inline-block, middle);
-				@include font(20px, 24px);
+				@include font($fs2, $lh2);
 			}
 			p{
-				@include font(20px, 24px);
+				@include font($fs2, $lh2);
 				margin: 10px 0 0;
 			}
 		}
@@ -271,18 +271,16 @@
 		max-width: 800px;
 		margin: 60px 0;
 		h1 {
-			font-size: 65px;
-			color: #fff;
-			line-height: 95px;
+			@include font($fs5, $lh5);
+			color: $lightColor;
 			margin: 0;
 		}
 		p {
-			color: #fff;
-			font-size: 24px;
-			line-height: 36px;
+			color: $lightColor;
+			@include font($fs3, $lh3);
 			font-weight: 300;
 			&.welcome {
-				font-size: 60px;
+				@include font($fs5, $lh5);
 				color: $themeColor;
 				font-weight: 300;
 				margin: 0;
@@ -299,15 +297,15 @@
 	padding: 50px 0;
 	@include clearfix();
 	h6 {
-		@include display(inline-block, top)
-		@include font(50px, 60px);
+		@include display(inline-block, top);
+		@include font($fs5, $lh5);
 		color: $themeDarkBlueColor;
 		border-bottom: 2px solid $socialColor;
 		margin: 0 0 20px;
 	}
 	article{
 		p {
-			@include font(32px, 40px);
+			@include font($fs4, $lh4);
 			color: $blackColor;
 			margin: 0;
 			padding: 0 0 50px;
@@ -319,7 +317,7 @@
 		margin: 50px 0;
 		padding: 0;
 		li {
-			@include display(inline-block, top)
+			@include display(inline-block, top);
 			width: 33%;
 			text-align: left;
 			padding: 10px 0;
@@ -332,7 +330,7 @@
 			margin: 0 15px 0 0;
 		}
 		p {
-			@include font(26px, 30px);
+			@include font($fs3, $lh3);
 			font-weight: 100;
 			padding: 0 10px;
 		}
@@ -344,7 +342,7 @@
 	@include clearfix();
 	h6 {
 		@include display(inline-block, top);
-		@include font(50px, 60px);
+		@include font($fs5, $lh5);
 		color: $themeDarkBlueColor;
 		border-bottom: 2px solid $socialColor;
 		margin: 0 0 20px;
@@ -354,14 +352,14 @@
 		margin: 0 auto;
 		p {
 			color: $blackColor;
-			@include font(32px, 40px);
+			@include font($fs4, $lh4);
 			font-weight: 300;
 			margin: 0;
 		}
 	}
 	ul{
 		li{
-			@include font(20px, 26px);
+			@include font($fs2, $lh2);
 			@include display(inline-block, top);
 			width: 33.33%;
 			padding: 20px 30px;
@@ -383,7 +381,7 @@
 		@include anim(0.5s);
 		p{
 			color: $themeDarkBlueColor;
-			@include font(24px, 30px);
+			@include font($fs3, $lh3);
 		}
 		img{
 			display: block;
@@ -415,14 +413,14 @@
 		max-width: 1000px;
 	}
 	h6 {
-		@include display(inline-block, top)
-		@include font(50px, 60px);
+		@include display(inline-block, top);
+		@include font($fs5, $lh5);
 		color: rgba(255,255,255,0.8);
 		margin: 0 0 20px;
 	}
 	p {
 		color: $lightColor;
-		@include font(24px, 40px);
+		@include font($fs3, $lh3);
 		font-weight: 300;
 		margin: 0;
 	}
@@ -453,7 +451,7 @@
 		}
 		p{
 			color: $lightColor;
-			@include font(32px, 40px);
+			@include font($fs4, $lh4);
 			font-weight: 300;
 			text-align: center;
 			background-color: rgba(14,43,137,0.75);
@@ -473,7 +471,7 @@
 	@include clearfix();
 	h2{
 		@include display(inline-block, top);
-		@include font(50px, 60px);
+		@include font($fs5, $lh5);
 		color: $themeDarkBlueColor;
 		border-bottom: 2px solid $socialColor;
 		margin: 0 0 20px;
@@ -483,7 +481,7 @@
 		margin: 0 auto 100px;
 		p{
 			color: $blackColor;
-			@include font(26px, 36px);
+			@include font($fs3, $lh3);
 			font-weight: 300;
 			margin: 0;
 		}
@@ -517,11 +515,11 @@
 			left: 0;
 			right: 0;
 			h3{
-				@include font(24px, 30px);
+				@include font($fs3, $lh3);
 				font-weight: 400;
 			}
 			p{
-				@include font(16px, 20px);
+				@include font($fs1, $lh1);
 			}
 		}
 	}
@@ -544,14 +542,14 @@
 		margin: 0 0 50px;
 		h4 {
 			@include display(inline-block, top);
-			@include font(50px, 60px);
+			@include font($fs5, $lh5);
 			color: $lightColor;
 			border-bottom: 2px solid $socialColor;
 			margin: 0 0 20px;
 		}
 		p {
 			color: $lightColor;
-			@include font(32px, 44px);
+			@include font($fs3, $lh3);
 			font-weight: 300;
 			margin: 0;
 		}
@@ -577,7 +575,7 @@
 			strong{
 				display: block;
 				color: $lightColor;
-				@include font(20px, 24px);
+				@include font($fs2, $lh2);
 				font-weight: bold;
 				margin: 0 0 15px;
 			}
@@ -717,7 +715,7 @@
 		}
 		h3{
 			color: $themeDarkBlueColor;
-			@include font(18px, 22px);
+			@include font($fs2, $lh2);
 			margin: 5px 0 0;
 		}
 	}
@@ -748,7 +746,7 @@
 	.popup-close-button{
 		display: block;
 		cursor: pointer;
-		@include font(32px, 32px);
+		@include font($fs4, $lh4);
 		height: 32px;
 		width: 32px;
 		position: absolute;
@@ -773,11 +771,11 @@
 		overflow-y: auto;
 		padding: 0 0 0 50px;
 		h2{
-			@include font(32px, 36px);
+			@include font($fs4, $lh4);
 			margin: 0 0 15px;
 		}
 		p{
-			@include font(18px, 24px);
+			@include font($fs2, $lh2);
 			margin: 0 0 20px;
 			&:last-child{
 				margin: 0;
