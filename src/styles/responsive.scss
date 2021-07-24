@@ -16,7 +16,7 @@
 		}
 	}
 	.banner-section{
-		height: 600px;
+		min-height: 600px;
 		.caption{
 			h1{
 				@include font($fs4, $lh4);
@@ -76,6 +76,7 @@
 		}
 	}
 	.training-section{
+		padding: 30px 0;
 		h6{
 			@include font($fs4, $lh4);
 		}
@@ -232,17 +233,365 @@
 		top: 150px;
 	}
 	.banner-section{
+		min-height: 400px;
 		.container{
 			max-width: 1000px;
+		}
+	}
+	.our-vision-section{
+		ul{
+			li{
+				width: 33.33%;
+				padding: 10px;
+			}
+		}
+	}
+	.main-principle-section{
+		.student-box{
+			.youtube-holder{
+				height: 300px;
+				width: 40%;
+			}
+		}
+		.student-box{
+			.student-creed-holder{
+				width: 60%;
+				ul{
+					li{
+						margin: 0 0 10px;
+					}
+				}
+			}
+		}
+		.principle-content-holder{
+			width: 55%;
+		}
+		.principle-image-holder{
+			width: 45%;
+		}
+		p{
+			@include font($Desktopfs1, $Desktoplh1);
 		}
 	}
 }
 
 @media screen and (max-width: 1200px){
 	.container{
-		max-width: 990px;
+		max-width: 850px;
+	}
+	.banner-section{
+		.container{
+			max-width: 800px;
+		}
+	}
+	#header{
+		.container{
+			max-width: 100%;
+		}
+		.header-top{
+			dl{
+				margin-left: 30px;
+			}
+			dt{
+				margin-right: 10px;
+			}
+		}
+		.logo{
+			width: 75px;
+		}
+		#main-nav{
+			ul{
+				a{
+					@include font($Desktopfs1, $Desktoplh1);
+					padding: 10px 15px;
+				}
+			}
+		}
+	}
+	.sidebar{
+		top: 125px;
+		.sidebar-menu-item{
+			padding: 5px;
+		}
+	}
+	.about-section{
+		ul{
+			li{
+				width: 50%;
+			}
+		}
+		.student-creed-list-holder{
+			img{
+				height: 24px;
+				width: 24px;
+			}
+		}
+	}
+	.offer-section{
+		ul{
+			li{
+				width: 50%;
+				padding: 10px 20px;
+			}
+		}
+	}
+	.training-box-section{
+		.training-box{
+			height: 300px;
+			p{
+				@include font($Desktopfs1, $Desktoplh1);
+				height: 60px;
+			}
+		}
+	}
+	.information-section{
+		padding: 40px 0 20px;
+		.container{
+			max-width: 800px;
+		}
+		.info-text{
+			h4{
+				@include font($fs3, $lh3);
+			}
+		}
+		.info-form{
+			input[type="text"],
+			input[type="password"],
+			input[type="search"],
+			input[type="email"]{
+				font-size: 16px;
+				line-height: 38px;
+				height: 50px;
+			}
+			textarea{
+				font-size: 16px;
+			}
+			.checkbox-holder{
+				padding: 0;
+			}
+			.form-group{
+				margin: 0 0 10px;
+			}
+			button{
+				@include font($Desktopfs1, $Desktoplh1);
+				padding: 15px;
+			}
+		}
+
+
+
+
+
+	}
+	#footer{
+		.footer-top{
+			padding: 30px 0;
+			.container{
+				max-width: 850px;
+			}
+		}
+		.footer-column{
+			h6{
+				@include font($fs2, $lh2);
+				margin: 0 0 15px;
+			}
+			p{
+				@include font($Desktopfs1, $Desktoplh1);
+			}
+			.footer-nav{
+				li{
+					margin: 0 0 5px;
+				}
+				a{
+					@include font($Desktopfs1, $Desktoplh1);
+				}
+			}
+			dl{
+				dt{
+					svg{
+						height: 22px;
+						width: 22px;
+					}
+				}
+				a{
+					@include font($Desktopfs1, $Desktoplh1);
+				}
+			}
+			.social-nav{
+				li{
+					margin-right: 15px;
+				}
+				a{
+					svg{
+						height: 20px;
+						width: 20px;
+					}
+				}
+			}
+		}
+		.footer-bottom{
+			padding: 20px 0;
+			p{
+				@include font($Desktopfs1, $Desktoplh1);
+			}
+		}
+	}
+	.gallery-section3{
+		.youtube-holder{
+			width: 100%;
+		}
+	}
+	.belt-requirements{
+		ul{
+			li{
+				width: 33.33%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1023px){
+	.container{
+		max-width: 750px;
+	}
+	.sidebar{
+		display: none;
+	}
+	.banner-section{
+		.container{
+			max-width: 100%;
+		}
+	}
+	.gallery-section{
+		ul{
+			li{
+				width: 100%;
+			}
+		}
+		.gallery-bg-holder{
+			height: 200px;
+		}
+	}
+	.about-section{
+		.student-creed-list-holder{
+			p{
+				@include font($Desktopfs1, $Desktoplh1);
+			}
+		}
+	}
+	.offer-section{
+		ul{
+			li{
+				padding: 10px;
+			}
+		}
+		.services-box{
+			margin: 30px 0 0;
+			p{
+				@include font($Desktopfs1, $Desktoplh1);
+			}
+		}
+	}
+	.training-section{
+		p{
+			@include font($fs1, $lh1);
+		}
+	}
+	.meet-section{
+		ul{
+			li{
+				width: 50%;
+			}
+		}
+		.meet-box{
+			padding: 0 0 80px;
+			.meet-box-details{
+				height: 80px;
+				padding: 10px;
+			}
+		}
+	}
+
+
+	.information-section{
+		.info-form{
+			ul{
+				li{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+	#footer{
+		text-align: center;
+		.footer-logo{
+			float: none;
+			width: 150px;
+			margin: 0 auto 30px;
+		}
+		.footer-column{
+			float: none;
+			width: 100%;
+			margin: 0 0 35px;
+			&.address-column{
+				width: 100%;
+				margin: 0;
+			}
+			h6{
+				margin: 0 0 10px;
+			}
+			p{
+				margin: 0;
+			}
+			.footer-nav{
+				li{
+					@include display(inline-block, top);
+					margin: 0 10px 5px;
+				}
+			}
+			.social-nav li{
+				float: none;
+				@include display(inline-block, top);
+				margin: 0 10px;
+			}
+			dl{
+				margin: 0;
+				&:last-child{
+					margin: 0;
+				}
+				dt{
+					float: none;
+					@include display(inline-block, top);
+				}
+				dd{
+					@include display(inline-block, top);
+				}
+			}
+		}
+		.footer-bottom{
+			p{
+				@include font($fs1, $lh1);
+			}
+		}
 	}
 }
 
 
+@media screen and (max-width: 767px){
+	#footer{
+		.footer-column{
+			dl{
+				a{
+					@include font($fs1, $lh1);
+				}
+			}
+		}
+	}
+}
 

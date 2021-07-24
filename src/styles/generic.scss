@@ -251,7 +251,7 @@
 /*Home Page Start*/
 .banner-section {
 	position: relative;
-	height: 860px;
+	min-height: 860px;
 	&:before {
 		content: '';
 		display: block;
@@ -330,6 +330,7 @@
 			margin: 0 15px 0 0;
 		}
 		p {
+			overflow: hidden;
 			@include font($fs3, $lh3);
 			font-weight: 100;
 			padding: 0 10px;
@@ -569,10 +570,10 @@
 				width: 50%;
 				padding: 0 20px;
 			}
-			.input-holder{
-				margin: 0 0 30px;
-			}
-			strong{
+		}
+		.input-holder{
+			margin: 0 0 30px;
+			> strong{
 				display: block;
 				color: $lightColor;
 				@include font($fs2, $lh2);
@@ -660,7 +661,7 @@
 			border-radius: 5px;
 			cursor: pointer;
 			width: 100%;
-			padding: 20px 20px;
+			padding: 20px;
 			@include anim(0.5s);
 			&:hover{
 				color: $themeColor;
@@ -705,6 +706,9 @@
 				background-color: $themeColor;
 			}
 		}
+		a{
+			display: block;
+		}
 	}
 	.sidebar-menu-item{
 		background-color: $lightColor;
@@ -725,8 +729,6 @@
 	}
 }
 /*Sidebar End*/
-
-
 
 /*Popup Start*/
 .Popup{
@@ -757,6 +759,11 @@
 		top: -16px;
 		right: -16px;
 		z-index: 99;
+		svg{
+			display: block;
+			height: 100%;
+			width: 100%;
+		}
 	}
 	.popup-image-holder{
 		@include display(inline-block, middle);

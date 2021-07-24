@@ -17,6 +17,7 @@ import Team from "./pages/team";
 import ContactUs from "./pages/contact-us";
 
 import Error from "./pages/error";
+import BannerSection from "./pages/sections/banner-section";
 
 function App() {
   return (
