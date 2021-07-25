@@ -1,7 +1,11 @@
 import React from 'react';
 import MainNav from '../menu/main-nav';
 import logo from '../../images/logo.svg';
-import { IoMdCall } from 'react-icons/io';
+import { IoMdCall, IoMdMenu, IoMdClose } from 'react-icons/io';
+
+function buttonClick(event) {
+	event.target.parentNode.closest('button').classList.toggle("active");
+}
 
 class Header extends React.Component {
 	render() {
@@ -34,6 +38,10 @@ class Header extends React.Component {
 						<div className="logo">
 							<a href="/"><img src={logo} alt="Logo" /></a>
 						</div>
+						<button onClick={buttonClick} className="menu-button">
+							<IoMdMenu className="open-svg" />
+							<IoMdClose className="close-svg" />
+						</button>
 						<MainNav />
 					</div>
 				</div>

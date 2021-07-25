@@ -99,10 +99,10 @@ class BeltRequirements extends React.Component {
 					<ul>
 						{
 							beltRequirementsList.map(beltRequirementsItem => (
-								<li key={beltRequirementsItem.beltIcon}>
+								<li key={beltRequirementsItem.beltTitle}>
 									<div className="belt-list-holder">
 										<div className="belt-icon-holder">
-											<img src={beltRequirementsItem.beltIcon} />
+											<img src={beltRequirementsItem.beltIcon} alt={beltRequirementsItem.beltTitle} />
 										</div>
 										<h5>{beltRequirementsItem.beltTitle}</h5>
 									</div>
@@ -117,10 +117,10 @@ class BeltRequirements extends React.Component {
 					<ul>
 						{
 							beltPromoteList.map(beltPromoteItem => (
-								<li key={beltPromoteItem.beltIcon}>
+								<li key={beltPromoteItem.beltTitle}>
 									<div className="belt-list-holder">
 										<div className="belt-icon-holder">
-											<img src={beltPromoteItem.beltIcon} />
+											<img src={beltPromoteItem.beltIcon} alt={beltPromoteItem.beltTitle} />
 										</div>
 										<h5>{beltPromoteItem.beltTitle}</h5>
 									</div>
@@ -135,10 +135,10 @@ class BeltRequirements extends React.Component {
 					<ul>
 						{
 							beltFormList.map(beltFormItem => (
-								<li key={beltFormItem.beltIcon}>
+								<li key={beltFormItem.beltTitle}>
 									<div className="belt-list-holder">
 										<div className="belt-icon-holder">
-											<img src={beltFormItem.beltIcon} />
+											<img src={beltFormItem.beltIcon} alt={beltFormItem.beltTitle} />
 										</div>
 										<h5>{beltFormItem.beltTitle}</h5>
 									</div>

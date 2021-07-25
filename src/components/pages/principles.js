@@ -138,7 +138,7 @@ class Principles extends React.Component {
 								possible.</p>
 						</div>
 						<div className="principle-image-holder">
-							<img src={imageMainPrincipal} />
+							<img src={imageMainPrincipal} alt="Main Principle" />
 						</div>
 					</article>
 					<div className="student-box">
@@ -150,10 +150,10 @@ class Principles extends React.Component {
 							<ul>
 								{
 									studentCreedList.map(studentCreed => (
-										<li key={studentCreed.studentCreedIcon}>
+										<li key={studentCreed.studentCreedTitle}>
 											<div className="student-creed-list-holder">
 												<div className="student-creed-icon-holder">
-													<img src={studentCreed.studentCreedIcon} />
+													<img src={studentCreed.studentCreedIcon} alt={studentCreed.studentCreedTitle} />
 												</div>
 												<p>{studentCreed.studentCreedTitle}</p>
 											</div>
@@ -170,10 +170,10 @@ class Principles extends React.Component {
 					<ul>
 						{
 							ourVisionList.map(ourVisionItem => (
-								<li key={ourVisionItem.ourVisionIcon}>
+								<li key={ourVisionItem.ourVisionTitle}>
 									<div className="vision-box">
 										<div className="vision-icon-holder">
-											<img src={ourVisionItem.ourVisionIcon} />
+											<img src={ourVisionItem.ourVisionIcon} alt={ourVisionItem.ourVisionTitle} />
 										</div>
 										<h3>{ourVisionItem.ourVisionTitle}</h3>
 										<p>{ourVisionItem.ourVisionParagraph}</p>

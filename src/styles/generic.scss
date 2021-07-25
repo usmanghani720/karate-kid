@@ -251,7 +251,6 @@
 /*Home Page Start*/
 .banner-section {
 	position: relative;
-	min-height: 860px;
 	&:before {
 		content: '';
 		display: block;
@@ -266,10 +265,16 @@
 		bottom: 0;
 		z-index: -9;
 	}
+	.caption-holder{
+		position: relative;
+		min-height: 850px;
+	}
 	.caption {
-		float: left;
 		max-width: 800px;
-		margin: 60px 0;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		@include crossBrowser(transform, translateY(-50%));
 		h1 {
 			@include font($fs5, $lh5);
 			color: $lightColor;
@@ -732,7 +737,7 @@
 
 /*Popup Start*/
 .Popup{
-	padding: 50px;
+	padding: 50px 40px;
 	background-color: $lightColor;
 	border-radius: 10px;
 	box-shadow: 0 0 30px rgba(0,0,0,0.3);
@@ -752,17 +757,28 @@
 	.popup-close-button{
 		display: block;
 		cursor: pointer;
+		background-color: $lightColor;
+		border-radius: 50%;
 		@include font($fs4, $lh4);
-		height: 32px;
-		width: 32px;
+		border: none;
+		height: 40px;
+		width: 40px;
+		padding: 0;
 		position: absolute;
-		top: -16px;
-		right: -16px;
+		top: -20px;
+		right: -20px;
 		z-index: 99;
 		svg{
 			display: block;
 			height: 100%;
 			width: 100%;
+		}
+	}
+	ul{
+		li{
+			float: none;
+			width: 100%;
+			padding: 0 10px;
 		}
 	}
 	.popup-image-holder{
@@ -777,6 +793,7 @@
 	}
 	.popup-content-holder{
 		@include display(inline-block, middle);
+		text-align: left;
 		width: 60%;
 		max-height: 300px;
 		overflow-y: auto;

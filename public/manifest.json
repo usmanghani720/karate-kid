@@ -4,8 +4,8 @@
   "description": "Developed by Evolution Martial Arts",
   "icons": [
     {
-      "src": "favicon.png",
-      "type": "image/png",
+      "src": "favicon.svg",
+      "type": "image/svg",
       "sizes": "310x310"
     }
   ],

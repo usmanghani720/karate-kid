@@ -35,7 +35,7 @@ class GallerySection extends React.Component {
 						<ul>
 							{
 								galleryList.map(galleryItem => (
-									<li key={galleryItem.galleryImage} className={galleryItem.galleryClass}>
+									<li key={galleryItem.galleryHeading} className={galleryItem.galleryClass}>
 										<div className="gallery-bg-holder" style={{backgroundImage: `url(${galleryItem.galleryImage})`}}>
 											<div className="gallery-text-holder">
 												<h4>{galleryItem.galleryHeading}</h4>

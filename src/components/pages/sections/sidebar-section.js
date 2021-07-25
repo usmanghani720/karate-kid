@@ -52,10 +52,10 @@ class Sidebar extends React.Component {
 					<ul>
 						{
 							sidebarMenuTopList.map(sidebarMenuTopItem => (
-								<li key={sidebarMenuTopItem.sidebarIcon}>
+								<li key={sidebarMenuTopItem.sidebarTitle}>
 									<NavHashLink to={sidebarMenuTopItem.sidebarUrl} activeClassName="selected" scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}>
 										<div className="sidebar-menu-item">
-											<img src={sidebarMenuTopItem.sidebarIcon} />
+											<img src={sidebarMenuTopItem.sidebarIcon} alt={sidebarMenuTopItem.sidebarTitle} />
 											<h3>{sidebarMenuTopItem.sidebarTitle}</h3>
 										</div>
 									</NavHashLink>
@@ -68,10 +68,10 @@ class Sidebar extends React.Component {
 					<ul>
 						{
 							sidebarMenuBottomList.map(sidebarMenuBottomItem => (
-								<li key={sidebarMenuBottomItem.sidebarIcon}>
+								<li key={sidebarMenuBottomItem.sidebarTitle}>
 									<NavHashLink to={sidebarMenuBottomItem.sidebarUrl} activeClassName="selected" scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}>
 										<div className="sidebar-menu-item">
-											<img src={sidebarMenuBottomItem.sidebarIcon} />
+											<img src={sidebarMenuBottomItem.sidebarIcon} alt={sidebarMenuBottomItem.sidebarTitle} />
 											<h3>{sidebarMenuBottomItem.sidebarTitle}</h3>
 										</div>
 									</NavHashLink>

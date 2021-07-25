@@ -15,21 +15,21 @@ class Gallery extends React.Component {
 				<div className="gallery-section2">
 					<div className="photo-gallery">
 						<div className="image-holder">
-							<img src={PhotoGallery} />
+							<img src={PhotoGallery} alt="P Gallery" />
 						</div>
-						<a href="#">Photo Gallery</a>
+						<a href="/">Photo Gallery</a>
 					</div>
 					<div className="video-gallery">
 						<div className="image-holder">
-							<img src={VideoGallery} />
+							<img src={VideoGallery} alt="V Gallery" />
 						</div>
-						<a href="#">Video Gallery</a>
+						<a href="/">Video Gallery</a>
 					</div>
 				</div>
 				<div className="gallery-section3">
 					<p>Demo Team Video</p>
 					<div className="youtube-holder">
-						<ReactPlayer wid url="https://www.youtube.com/watch?v=XL9Cpak6jyg" width='100%' height='100%' />
+						<ReactPlayer wid="true" url="https://www.youtube.com/watch?v=XL9Cpak6jyg" width='100%' height='100%' />
 					</div>
 				</div>
 			</div>

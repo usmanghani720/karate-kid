@@ -61,9 +61,9 @@ class AbooutBoxSection extends React.Component {
 					<ul>
 						{
 							studentCreedList.map(studentCreed => (
-								<li key={studentCreed.studentCreedIcon}>
+								<li key={studentCreed.studentCreedTitle}>
 									<div className="student-creed-list-holder">
-										<img src={studentCreed.studentCreedIcon} />
+										<img src={studentCreed.studentCreedIcon} alt={studentCreed.studentCreedTitle} />
 										<p>{studentCreed.studentCreedTitle}</p>
 									</div>
 								</li>

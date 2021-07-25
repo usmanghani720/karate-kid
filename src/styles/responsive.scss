@@ -16,7 +16,9 @@
 		}
 	}
 	.banner-section{
-		min-height: 600px;
+		.caption-holder{
+			min-height: 600px;
+		}
 		.caption{
 			h1{
 				@include font($fs4, $lh4);
@@ -137,7 +139,7 @@
 		}
 	}
 	.Popup{
-		padding: 30px;
+		padding: 30px 20px;
 		.popup-content-holder{
 			padding: 0 0 0 30px;
 			h2{
@@ -233,7 +235,6 @@
 		top: 150px;
 	}
 	.banner-section{
-		min-height: 400px;
 		.container{
 			max-width: 1000px;
 		}
@@ -377,11 +378,13 @@
 				padding: 15px;
 			}
 		}
-
-
-
-
-
+	}
+	.Popup{
+		max-width: 700px;
+		padding: 20px 15px;
+		.popup-content-holder{
+			max-height: 200px;
+		}
 	}
 	#footer{
 		.footer-top{
@@ -448,11 +451,96 @@
 			}
 		}
 	}
+	.main-principle-section{
+		.principle-content-holder{
+			float: none;
+			width: 100%;
+			padding: 0 0 30px;
+		}
+		.principle-image-holder{
+			float: none;
+			width: 100%;
+		}
+		.student-box{
+			.youtube-holder{
+				float: none;
+				width: 100%;
+				height: 500px;
+			}
+			.student-creed-holder{
+				float: none;
+				width: 100%;
+				padding: 30px 0 0;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 1023px){
 	.container{
 		max-width: 750px;
+	}
+	#header{
+		.logo{
+			width: 60px;
+		}
+		.header-top{
+			dl{
+				display: block;
+				@include font($mobilefs2, $mobilelh2);
+				margin: 2px 0;
+			}
+			dd{
+				strong{
+					height: 16px;
+					width: 16px;
+					border-width: 2px;
+				}
+			}
+		}
+		.header-bottom{
+			.menu-button{
+				display: block;
+				&.active{
+					svg{
+						@include font($fs3, $lh3);
+						&.open-svg{
+							display: none;
+						}
+						&.close-svg{
+							display: block;
+						}
+					}
+					+ #main-nav{
+						top: 62px;
+						visibility: visible;
+						opacity: 1;
+					}
+				}
+			}
+		}
+		#main-nav{
+			background: $bodyColor;
+			padding: 20px;
+			margin: 0;
+			position: absolute;
+			top: 100px;
+			left: 0;
+			right: 0;
+			z-index: 99;
+			visibility: hidden;
+			opacity: 0;
+			@include anim(0.5s);
+			ul{
+				li{
+					float: none;
+				}
+				a{
+					@include font($fs1, $lh1);
+					padding: 10px;
+				}
+			}
+		}
 	}
 	.sidebar{
 		display: none;
@@ -463,6 +551,7 @@
 		}
 	}
 	.gallery-section{
+		margin: 20px 0 50px;
 		ul{
 			li{
 				width: 100%;
@@ -511,8 +600,21 @@
 			}
 		}
 	}
-
-
+	.gallery-section2{
+		.photo-gallery{
+			float: none;
+			width: 100%;
+		}
+		.video-gallery{
+			float: none;
+			width: 100%;
+		}
+	}
+	.gallery-section3{
+		.youtube-holder{
+			height: 400px;
+		}
+	}
 	.information-section{
 		.info-form{
 			ul{
@@ -522,12 +624,6 @@
 			}
 		}
 	}
-
-
-
-
-
-
 	#footer{
 		text-align: center;
 		.footer-logo{
@@ -580,10 +676,78 @@
 			}
 		}
 	}
+	.our-vision-section{
+		ul{
+			li{
+				width: 50%;
+			}
+			.vision-box{
+				min-height: 130px;
+				.vision-icon-holder{
+					display: block;
+					text-align: center;
+					margin: 0;
+					img{
+						@include display(inline-block, top);
+					}
+				}
+				h3{
+					line-height: 17px;
+				}
+				p{
+					@include font($mobilefs2, $mobilelh2);
+					margin: 0;
+				}
+			}
+		}
+	}
+	.main-principle-section{
+		.student-box{
+			.youtube-holder{
+				height: 400px;
+			}
+		}
+	}
 }
 
-
 @media screen and (max-width: 767px){
+	.banner-section{
+		.caption{
+			h1{
+				@include font($fs3, $lh3);
+			}
+		}
+	}
+	.offer-section{
+		ul{
+			li{
+				width: 100%;
+			}
+		}
+		.services-box{
+			min-height: 100%;
+		}
+	}
+	.training-box-section{
+		margin: 0;
+	}
+	.meet-section{
+		.container{
+			padding: 0;
+		}
+		ul{
+			li{
+				padding: 10px;
+			}
+		}
+		.meet-box{
+			.meet-box-details{
+				h3{
+					@include font($Desktopfs1, $Desktoplh1);
+				}
+			}
+		}
+	}
 	#footer{
 		.footer-column{
 			dl{
@@ -593,5 +757,159 @@
 			}
 		}
 	}
+	.Popup{
+		width: 100%;
+		max-width: 300px;
+		padding: 20px 10px;
+		.popup-close-button{
+			height: 30px;
+			width: 30px;
+			top: -15px;
+			right: -15px;
+		}
+		.popup-image-holder{
+			display: block;
+			width: 100%;
+		}
+		.popup-content-holder{
+			display: block;
+			width: 100%;
+			padding: 20px 0 0;
+		}
+	}
+	.gallery-section2{
+		a{
+			@include font($fs2, $lh2);
+		}
+	}
+	.gallery-section3{
+		.youtube-holder{
+			height: 220px;
+		}
+	}
+	.parkland-box-holder{
+		max-width: 400px;
+		margin: 0 auto;
+		h2{
+			@include font($fs3, $lh3);
+		}
+		.parkland-box{
+			float: none;
+			width: 100%;
+			padding: 0 0 50px;
+		}
+		h4{
+			a{
+				@include font($fs2, $lh2);
+			}
+		}
+	}
+	.belt-requirements{
+		ul{
+			li{
+				width: 50%;
+			}
+		}
+	}
+	.main-principle-section{
+		.student-box{
+			.youtube-holder{
+				height: 300px;
+			}
+			.student-creed-holder{
+				ul{
+					li{
+						display: block;
+						width: 100%;
+						@include clearfix();
+					}
+				}
+			}
+		}
+	}
 }
 
+@media screen and (max-width: 480px){
+	#header{
+		.header-top{
+			dl{
+				display: block;
+				@include font($mobilefs1, $mobilelh1);
+			}
+		}
+	}
+	.banner-section{
+		.caption-holder{
+			min-height: 450px;
+		}
+		.caption{
+			h1{
+				@include font($fs2, $lh2);
+			}
+			p{
+				@include font($fs1, $lh1);
+				&.welcome{
+					@include font($fs2, $lh2);
+					padding: 10px 0;
+				}
+			}
+		}
+	}
+	.meet-section ul li{
+		width: 100%;
+	}
+	.gallery-section{
+		.gallery-text-holder{
+			h4{
+				@include font($fs2, $lh2);
+			}
+			p{
+				@include font($fs1, $lh1);
+			}
+		}
+	}
+	.about-section{
+		ul{
+			li{
+				width: 100%;
+			}
+		}
+	}
+	.belt-requirements{
+		ul{
+			li{
+				width: 100%;
+			}
+		}
+	}
+	.our-vision-section{
+		ul{
+			li{
+				width: 100%;
+			}
+			.vision-box{
+				min-height: 100%;
+			}
+		}
+	}
+	.main-principle-section{
+		.student-box{
+			margin: 0 0 50px;
+			.youtube-holder{
+				height: 200px;
+			}
+		}
+		p{
+			@include font($fs1, $lh1);
+		}
+		.student-creed-list-holder{
+			.student-creed-icon-holder{
+				img{
+					display: block;
+					height: 24px;
+					width: 24px;
+				}
+			}
+		}
+	}
+}

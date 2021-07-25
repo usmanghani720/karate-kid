@@ -43,9 +43,9 @@ class WeOfferSection extends React.Component {
 					<ul>
 						{
 							weOfferList.map(weOfferItem => (
-								<li key={weOfferItem.weOfferIcon}>
+								<li key={weOfferItem.weOfferTitle}>
 									<div className="services-box">
-										<img src={weOfferItem.weOfferIcon} />
+										<img src={weOfferItem.weOfferIcon} alt={weOfferItem.weOfferTitle} />
 										<p>{weOfferItem.weOfferTitle}</p>
 									</div>
 								</li>

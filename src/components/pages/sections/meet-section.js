@@ -71,9 +71,9 @@ class MeetSection extends React.Component {
 					<ul>
 						{
 							meetList.map(meetItem => (
-								<li key={meetItem.meetIcon}>
+								<li key={meetItem.meetTitle}>
 									<div className="meet-box">
-										<img src={meetItem.meetIcon} />
+										<img src={meetItem.meetIcon} alt={meetItem.meetTitle} />
 										<div className="meet-box-details">
 											<h3>{meetItem.meetTitle}</h3>
 											<p>{meetItem.meetDesignation}</p>
