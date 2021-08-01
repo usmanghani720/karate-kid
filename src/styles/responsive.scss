@@ -443,6 +443,10 @@
 		.youtube-holder{
 			width: 100%;
 		}
+		//remove these two classes when image section is uncommented
+		img{
+			width: 100%;
+		}
 	}
 	.belt-requirements{
 		ul{
@@ -613,6 +617,11 @@
 	.gallery-section3{
 		.youtube-holder{
 			height: 400px;
+		}
+		//remove these two classes when image section is uncommented
+		.video-gallery{
+			float: none;
+			width: 100%;
 		}
 	}
 	.information-section{

@@ -74,6 +74,18 @@
 		width: 1000px;
 		margin: 0 auto;
 	}
+	//remove these two classes when image section is uncommented
+	.image-holder{
+		padding: 50px;
+	}
+	a{
+		@include display(inline-block, top);
+		color: $socialColor;
+		@include font($fs4, $lh4);
+		&:hover{
+			color: $themeColor;
+		}
+	}
 }
 /*Gallery Page End*/
 

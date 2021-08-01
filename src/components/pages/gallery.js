@@ -35,7 +35,7 @@ class Gallery extends React.Component {
         {this.state.imageModal ? (
           <ImageSection toggleImageModal={this.toggleImageModal.bind(this)} />
         ) : null}
-        <div className="gallery-section2">
+        {/* <div className="gallery-section2">
           <div className="photo-gallery">
             <div className="image-holder">
               <img src={PhotoGallery} alt="P Gallery" />
@@ -51,6 +51,23 @@ class Gallery extends React.Component {
             <div className="image-holder">
               <img
                 style={{ cursor: "pointer" }}
+                src={VideoGallery}
+                alt="V Gallery"
+              />
+            </div>
+            <a
+              style={{ cursor: "pointer" }}
+              onClick={this.showVideoModal.bind(this)}
+            >
+              Video Gallery
+            </a>
+          </div>
+        </div> */}
+        <div className="gallery-section3" style={{ padding: "50px 0" }}>
+          <div className="video-gallery">
+            <div className="image-holder">
+              <img
+                style={{ cursor: "pointer", width: "100%" }}
                 src={VideoGallery}
                 alt="V Gallery"
               />
