@@ -13,7 +13,7 @@ class ImageSection extends React.Component {
         >
           <IoMdCloseCircleOutline />
         </button>
-        <div className="popup-content-holder" style={{width: "100%"}}>
+        <div className="popup-content-holder" style={{width: "95%"}}>
           <div className="youtube-holder">
             <ReactPlayer
               wid="true"
