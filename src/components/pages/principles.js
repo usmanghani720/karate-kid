@@ -119,7 +119,7 @@ class Principles extends React.Component {
 				<section className="main-principle-section">
 					<article className="principle-article">
 						<div className="principle-content-holder">
-							<h2>Main Principle</h2>
+							<h2>Main Principles</h2>
 							<p>In the broad spectrum of martial arts styles, our style of Tae Kwon Do is referred to as
 								"Freestyle Tae Kwon Do." This means that we have chosen to incorporate techniques
 								from other styles into our curriculum in order to provide you with the best martial arts
@@ -138,7 +138,7 @@ class Principles extends React.Component {
 								possible.</p>
 						</div>
 						<div className="principle-image-holder">
-							<img src={imageMainPrincipal} alt="Main Principle" />
+							<img src={imageMainPrincipal} alt="Main Principles" />
 						</div>
 					</article>
 					<div className="student-box">

@@ -6,3 +6,9 @@
     visibility: hidden !important;
     display: none !important;;
 }
+.list-paragraph{
+    margin-left: 20px;
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
