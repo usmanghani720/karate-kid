@@ -67,7 +67,7 @@ class Gallery extends React.Component {
           <div className="video-gallery">
             <div className="image-holder">
               <img
-                style={{ cursor: "pointer", width: "100%" }}
+                style={{ cursor: "pointer"}}
                 src={VideoGallery}
                 alt="V Gallery"
               />
