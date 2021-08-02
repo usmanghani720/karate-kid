@@ -43,7 +43,7 @@ const meetList = [
 const officeList = [
   {
     meetIcon: meetIcon8,
-    meetTitle: "Ms. Monika",
+    meetTitle: "Ms. Monica",
     meetDesignation: "Office Master",
   },
 ];
