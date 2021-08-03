@@ -24,6 +24,7 @@ class SpecialSection extends React.Component {
           <p className="list-paragraph">
             <b style={{ fontWeight: "600" }}>free</b> registration
           </p>
+          <p className="list-paragraph">No contract</p>
           <p>
             Save <b style={{ fontWeight: "600" }}>1/2</b> of current monthly
             rate

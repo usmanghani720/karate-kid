@@ -27,7 +27,6 @@ import blackStripeToBlack from "../../pdf/blackstripetoblack.pdf";
 import secondDegree from "../../pdf/2nddegree.pdf";
 import children from "../../pdf/Intent_to_Promote_TONY.pdf";
 import adults from "../../pdf/adult_intent_to_promote.pdf";
-import studInfoBoth from "../../pdf/studinfoboth.pdf";
 import studInfo from "../../pdf/studinfo.pdf";
 import guest from "../../pdf/guestpass.pdf";
 
@@ -100,12 +99,7 @@ const beltPromoteList = [
 const beltFormList = [
   {
     beltIcon: imagePencil,
-    beltTitle: "Student Information (Single Sided)",
-    pdfDocument: studInfoBoth,
-  },
-  {
-    beltIcon: imagePencil,
-    beltTitle: "Student Information (Double Sided)",
+    beltTitle: "Student Information",
     pdfDocument: studInfo,
   },
   {

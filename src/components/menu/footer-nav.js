@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 const menuList = [
   { listName: "Home", listUrl: "/" },
-  { listName: "About Us", listUrl: "/about-us" },
-  { listName: "Program", listUrl: "/program" },
-  { listName: "Team", listUrl: "/team" },
-  { listName: "Contact Us", listUrl: "/contact-us" },
+  { listName: "About Us", listUrl: "#about-section" },
+  { listName: "Program", listUrl: "#training-section" },
+  { listName: "Team", listUrl: "#meet-section" },
+  { listName: "Contact Us", listUrl: "#information-section" },
 ];
 
 class FooterNav extends React.Component {
@@ -16,9 +16,14 @@ class FooterNav extends React.Component {
         <ul>
           {menuList.map((menuItem) => (
             <li key={menuItem.listName}>
-              <NavLink exact activeClassName="active" to={menuItem.listUrl}>
+              <NavHashLink
+                exact
+                activeClassName="selected"
+                to={`/` + menuItem.listUrl}
+                scroll={(el) => el.scrollIntoView({ behavior: "smooth" })}
+              >
                 {menuItem.listName}
-              </NavLink>
+              </NavHashLink>
             </li>
           ))}
         </ul>

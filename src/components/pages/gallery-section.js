@@ -23,7 +23,7 @@ const galleryList = [
     galleryClass: "gallery-box1 gallery-bg3",
     galleryImage: galleryBg3,
     galleryHeading: "Special",
-    galleryParagraph: "4 Weeks Classes Free Registration Free Uniform",
+    galleryParagraph: "4 Weeks Classes Free Registration Free Uniform No Contracts",
   },
 ];
 

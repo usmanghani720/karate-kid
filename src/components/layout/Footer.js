@@ -3,11 +3,20 @@ import FooterNav from "../menu/footer-nav";
 import AddressNav from "../menu/address-nav";
 import SocialNav from "../menu/social-nav";
 import logo from "../../images/logo.svg";
+import Vision from "../pages/sections/vision";
 
 class Footer extends React.Component {
+  state = {
+    showModal: "",
+  };
+
+  changeShowModal = (value) => {
+    this.setState({ showModal: value });
+  };
   render() {
     return (
       <footer id="footer">
+        {this.state.showModal ? <Vision /> : null}
         <div className="footer-top">
           <div className="container">
             <div className="footer-logo">
@@ -18,8 +27,9 @@ class Footer extends React.Component {
             <div className="footer-column">
               <h6>Our Vision</h6>
               <p>
-                Our Black belts if today become the leaders of tomorrow. Read
-                more about the core elements that make up our vision.
+                Our Black belts of today become the leaders of tomorrow.{" "}
+                <span style={{ cursor: 'pointer', color: '#fd1812' }} onClick={this.changeShowModal.bind(this)}>Read more</span>{" "}
+                about the core elements that make up our vision.
               </p>
             </div>
             <div className="footer-column">
