@@ -14,7 +14,6 @@ class InformationSection extends React.Component {
 
   sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_rh00suv",

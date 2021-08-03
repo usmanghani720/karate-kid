@@ -1,19 +1,22 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookSquare, FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const menuList = [
   {
-    socialIcon: <FaFacebookF />,
-    socialUrl: "https://facebook.com",
+    socialIcon: <FaFacebookSquare />,
+    socialUrl: "https://www.facebook.com/EvolutionMartialArtsEMA",
+  },
+  {
+    socialIcon: <FaYoutube />,
+    socialUrl: "https://www.youtube.com/channel/UCegvzRRvSOKT_Z1Mf60lfQw",
   },
   {
     socialIcon: <FaInstagram />,
-    socialUrl: "https://instagram.com",
+    socialUrl: "https://www.instagram.com/evolution_martial_arts/",
   },
   {
     socialIcon: <FaTwitter />,
-    socialUrl: "https://twitter.com",
+    socialUrl: "https://twitter.com/emakarateschool",
   },
 ];
 
@@ -24,9 +27,14 @@ class SocialNav extends React.Component {
         <ul>
           {menuList.map((menuItem) => (
             <li key={menuItem.socialUrl}>
-              <NavLink exact activeClassName="active" to={menuItem.socialUrl}>
+              <a
+                exact
+                activeClassName="active"
+                href={menuItem.socialUrl}
+                target="_blank"
+              >
                 {menuItem.socialIcon}
-              </NavLink>
+              </a>
             </li>
           ))}
         </ul>

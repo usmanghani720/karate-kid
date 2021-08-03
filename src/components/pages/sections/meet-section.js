@@ -15,7 +15,7 @@ const meetList = [
   },
   {
     meetIcon: meetIcon4,
-    meetTitle: "Mrs. Kristy Roth",
+    meetTitle: "Ms. Kristy Roth",
     meetDesignation: "Instructor",
   },
   {
@@ -43,7 +43,7 @@ const meetList = [
 const officeList = [
   {
     meetIcon: meetIcon8,
-    meetTitle: "Ms. Monica",
+    meetTitle: "Mrs. Monica",
     meetDesignation: "Office Master",
   },
 ];

@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import { IoMdCall, IoIosPin, IoIosMail } from "react-icons/io";
 
 const menuList = [
@@ -17,8 +16,8 @@ const menuList = [
   },
   {
     addressIcon: <IoMdCall />,
-    addressName: "+9545727970",
-    addressUrl: "tel:9545727970",
+    addressName: "+9547964911",
+    addressUrl: "tel:9547964911",
   },
   {
     addressIcon: <IoMdCall />,
@@ -35,9 +34,9 @@ class AddressNav extends React.Component {
           <dl key={menuItem.addressName}>
             <dt>{menuItem.addressIcon}</dt>
             <dd>
-              <NavLink exact activeClassName="active" to={menuItem.addressUrl}>
+              <a exact activeClassName="active" href={menuItem.addressUrl} target="_blank"> 
                 {menuItem.addressName}
-              </NavLink>
+              </a>
             </dd>
           </dl>
         ))}
