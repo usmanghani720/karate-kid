@@ -1,924 +1,936 @@
-@media screen and (max-width: 1920px){
-	.container{
-		max-width: 1368px;
-	}
-	#header{
-		.logo{
-			width: 100px;
-		}
-		#main-nav{
-			margin: 15px 0 0;
-			ul{
-				a{
-					@include font($fs2, $lh2);
-				}
-			}
-		}
-	}
-	.banner-section{
-		.caption-holder{
-			min-height: 600px;
-		}
-		.caption{
-			h1{
-				@include font($fs4, $lh4);
-			}
-			p{
-				@include font($fs2, $lh2);
-				&.welcome{
-					@include font($fs4, $lh4);
-				}
-			}
-		}
-	}
-	.about-section{
-		h6{
-			@include font($fs4, $lh4);
-		}
-		article{
-			p{
-				@include font($fs2, $lh2);
-			}
-		}
-	}
-	.about-section{
-		ul{
-			margin: 0;
-		}
-		.student-creed-list-holder{
-			img{
-				height: 32px;
-				width: 32px;
-			}
-			p{
-				@include font($fs2, $lh2);
-			}
-		}
-	}
-	.offer-section{
-		h6{
-			@include font($fs4, $lh4);
-		}
-		article{
-			p{
-				@include font($fs2, $lh2);
-			}
-		}
-		.services-box{
-			min-height: 120px;
-			padding: 30px 20px 20px;
-			img{
-				height: 60px;
-				width: 60px;
-				top: -30px;
-			}
-			p{
-				@include font($fs2, $lh2);
-			}
-		}
-	}
-	.training-section{
-		padding: 30px 0;
-		h6{
-			@include font($fs4, $lh4);
-		}
-		p{
-			@include font($fs2, $lh2);
-		}
-	}
-	.training-box-section{
-		margin: 0 0 50px;
-		.training-box{
-			height: 350px;
-			p{
-				@include font($fs3, $lh3);
-				height: 70px;
-			}
-		}
-	}
-	.meet-section{
-		h2{
-			@include font($fs4, $lh4);
-		}
-		article{
-			margin-bottom: 50px;
-			p{
-				@include font($fs2, $lh2);
-			}
-		}
-		.meet-box{
-			max-width: 300px;
-			.meet-box-details{
-				h3{
-					@include font($fs2, $lh2);
-				}
-			}
-		}
-	}
-	.information-section{
-		.info-text{
-			h4{
-				@include font($fs4, $lh4);
-			}
-			p{
-				@include font($fs2, $lh2);
-			}
-		}
-	}
-	.sidebar{
-		.sidebar-menu-item{
-			width: 100px;
-			padding: 10px 5px;
-			img{
-				height: 32px;
-				width: 32px;
-			}
-			h3{
-				@include font($fs1, $lh1);
-			}
-		}
-	}
-	.Popup{
-		padding: 30px 20px;
-		.popup-content-holder{
-			padding: 0 0 0 30px;
-			h2{
-				@include font($fs2, $lh2);
-			}
-			p{
-				@include font($fs1, $lh1);
-			}
-		}
-	}
-	.gallery-section{
-		margin: 50px 0;
-		.gallery-text-holder{
-			h4{
-				@include font($fs3, $lh3);
-			}
-		}
-	}
-	.gallery-section2{
-		a{
-			@include font($fs3, $lh3);
-		}
-	}
-	.parkland-box-holder{
-		h4{
-			a{
-				@include font($fs3, $lh3);
-			}
-		}
-	}
-	.belt-requirements{
-		h2{
-			@include font($fs3, $lh3);
-			margin: 0 0 20px;
-		}
-	}
-	.main-principle-section{
-		h2{
-			@include font($fs3, $lh3);
-		}
-	}
-	.our-vision-section{
-		h2{
-			@include font($fs3, $lh3);
-		}
-		ul{
-			.vision-box{
-				h3{
-					@include font($fs1, $lh1);
-				}
-				p{
-					@include font($fs1, $lh1);
-				}
-			}
-		}
-	}
-	#footer{
-		.footer-logo{
-			padding: 0 20px;
-		}
-		.footer-column{
-			padding: 0 20px;
-			h6{
-				@include font($fs3, $lh3);
-			}
-			p{
-				@include font($fs2, $lh2);
-			}
-			.footer-nav{
-				a{
-					@include font($fs2, $lh2);
-				}
-			}
-			dl{
-				dt{
-					svg{
-						@include font($fs3, $lh2);
-					}
-				}
-				a{
-					@include font($fs2, $lh2);
-				}
-			}
-		}
-	}
+@media screen and (max-width: 1920px) {
+  .container {
+    max-width: 1368px;
+  }
+  #header {
+    .logo {
+      width: 100px;
+    }
+    #main-nav {
+      margin: 15px 0 0;
+      ul {
+        a {
+          @include font($fs2, $lh2);
+        }
+      }
+    }
+  }
+  .banner-section {
+    .caption-holder {
+      min-height: 600px;
+    }
+    .caption {
+      h1 {
+        @include font($fs4, $lh4);
+      }
+      p {
+        @include font($fs2, $lh2);
+        &.welcome {
+          @include font($fs4, $lh4);
+        }
+      }
+    }
+  }
+  .about-section {
+    h6 {
+      @include font($fs4, $lh4);
+    }
+    article {
+      p {
+        @include font($fs2, $lh2);
+      }
+    }
+  }
+  .about-section {
+    ul {
+      margin: 0;
+    }
+    .student-creed-list-holder {
+      img {
+        height: 32px;
+        width: 32px;
+      }
+      p {
+        @include font($fs2, $lh2);
+      }
+    }
+  }
+  .offer-section {
+    h6 {
+      @include font($fs4, $lh4);
+    }
+    article {
+      p {
+        @include font($fs2, $lh2);
+      }
+    }
+    .services-box {
+      min-height: 120px;
+      padding: 30px 20px 20px;
+      img {
+        height: 60px;
+        width: 60px;
+        top: -30px;
+      }
+      p {
+        @include font($fs2, $lh2);
+      }
+    }
+  }
+  .training-section {
+    padding: 30px 0;
+    h6 {
+      @include font($fs4, $lh4);
+    }
+    p {
+      @include font($fs2, $lh2);
+    }
+  }
+  .training-box-section {
+    margin: 0 0 50px;
+    .training-box {
+      height: 350px;
+      p {
+        @include font($fs3, $lh3);
+        height: 70px;
+      }
+    }
+  }
+  .meet-section {
+    h2 {
+      @include font($fs4, $lh4);
+    }
+    article {
+      margin-bottom: 50px;
+      p {
+        @include font($fs2, $lh2);
+      }
+    }
+    .meet-box {
+      max-width: 300px;
+      .meet-box-details {
+        h3 {
+          @include font($fs2, $lh2);
+        }
+      }
+    }
+  }
+  .information-section {
+    .info-text {
+      h4 {
+        @include font($fs4, $lh4);
+      }
+      p {
+        @include font($fs2, $lh2);
+      }
+    }
+  }
+  .sidebar {
+    .sidebar-menu-item {
+      width: 100px;
+      padding: 10px 5px;
+      img {
+        height: 32px;
+        width: 32px;
+      }
+      h3 {
+        @include font($fs1, $lh1);
+      }
+    }
+  }
+  .Popup {
+    padding: 30px 20px;
+    .popup-content-holder {
+      padding: 0 0 0 30px;
+      h2 {
+        @include font($fs2, $lh2);
+      }
+      p {
+        @include font($fs1, $lh1);
+      }
+    }
+  }
+  .gallery-section {
+    margin: 50px 0;
+    .gallery-text-holder {
+      h4 {
+        @include font($fs3, $lh3);
+      }
+    }
+  }
+  .gallery-section2 {
+    a {
+      @include font($fs3, $lh3);
+    }
+  }
+  .parkland-box-holder {
+    h4 {
+      a {
+        @include font($fs3, $lh3);
+      }
+    }
+  }
+  .belt-requirements {
+    h2 {
+      @include font($fs3, $lh3);
+      margin: 0 0 20px;
+    }
+  }
+  .main-principle-section {
+    h2 {
+      @include font($fs3, $lh3);
+    }
+  }
+  .our-vision-section {
+    h2 {
+      @include font($fs3, $lh3);
+    }
+    ul {
+      .vision-box {
+        h3 {
+          @include font($fs1, $lh1);
+        }
+        p {
+          @include font($fs1, $lh1);
+        }
+      }
+    }
+  }
+  #footer {
+    .footer-logo {
+      padding: 0 20px;
+    }
+    .footer-column {
+      padding: 0 20px;
+      h6 {
+        @include font($fs3, $lh3);
+      }
+      p {
+        @include font($fs2, $lh2);
+      }
+      .footer-nav {
+        a {
+          @include font($fs2, $lh2);
+        }
+      }
+      dl {
+        dt {
+          svg {
+            @include font($fs3, $lh2);
+          }
+        }
+        a {
+          @include font($fs2, $lh2);
+        }
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 1600px){
-	.container{
-		max-width: 1200px;
-	}
-	.sidebar{
-		top: 150px;
-	}
-	.banner-section{
-		.container{
-			max-width: 1000px;
-		}
-	}
-	.our-vision-section{
-		ul{
-			li{
-				width: 33.33%;
-				padding: 10px;
-			}
-		}
-	}
-	.main-principle-section{
-		.student-box{
-			.youtube-holder{
-				height: 300px;
-				width: 40%;
-			}
-		}
-		.student-box{
-			.student-creed-holder{
-				width: 60%;
-				ul{
-					li{
-						margin: 0 0 10px;
-					}
-				}
-			}
-		}
-		.principle-content-holder{
-			width: 55%;
-		}
-		.principle-image-holder{
-			width: 45%;
-		}
-		p{
-			@include font($Desktopfs1, $Desktoplh1);
-		}
-	}
+@media screen and (max-width: 1600px) {
+  .container {
+    max-width: 1200px;
+  }
+  .sidebar {
+    top: 150px;
+  }
+  .banner-section {
+    .container {
+      max-width: 1000px;
+    }
+  }
+  .our-vision-section {
+    ul {
+      li {
+        width: 33.33%;
+        padding: 10px;
+      }
+    }
+  }
+  .main-principle-section {
+    .student-box {
+      .youtube-holder {
+        height: 300px;
+        width: 40%;
+      }
+    }
+    .student-box {
+      .student-creed-holder {
+        width: 60%;
+        ul {
+          li {
+            margin: 0 0 10px;
+          }
+        }
+      }
+    }
+    .principle-content-holder {
+      width: 55%;
+    }
+    .principle-image-holder {
+      width: 45%;
+    }
+    p {
+      @include font($Desktopfs1, $Desktoplh1);
+    }
+  }
 }
 
-@media screen and (max-width: 1200px){
-	.container{
-		max-width: 850px;
-	}
-	.banner-section{
-		.container{
-			max-width: 800px;
-		}
-	}
-	#header{
-		.container{
-			max-width: 100%;
-		}
-		.header-top{
-			dl{
-				margin-left: 30px;
-			}
-			dt{
-				margin-right: 10px;
-			}
-		}
-		.logo{
-			width: 75px;
-		}
-		#main-nav{
-			ul{
-				a{
-					@include font($Desktopfs1, $Desktoplh1);
-					padding: 10px 15px;
-				}
-			}
-		}
-	}
-	.sidebar{
-		top: 125px;
-		.sidebar-menu-item{
-			padding: 5px;
-		}
-	}
-	.about-section{
-		ul{
-			li{
-				width: 50%;
-			}
-		}
-		.student-creed-list-holder{
-			img{
-				height: 24px;
-				width: 24px;
-			}
-		}
-	}
-	.offer-section{
-		ul{
-			li{
-				width: 50%;
-				padding: 10px 20px;
-			}
-		}
-	}
-	.training-box-section{
-		.training-box{
-			height: 300px;
-			p{
-				@include font($Desktopfs1, $Desktoplh1);
-				height: 60px;
-			}
-		}
-	}
-	.information-section{
-		padding: 40px 0 20px;
-		.container{
-			max-width: 800px;
-		}
-		.info-text{
-			h4{
-				@include font($fs3, $lh3);
-			}
-		}
-		.info-form{
-			input[type="text"],
-			input[type="password"],
-			input[type="search"],
-			input[type="email"]{
-				font-size: 16px;
-				line-height: 38px;
-				height: 50px;
-			}
-			textarea{
-				font-size: 16px;
-			}
-			.checkbox-holder{
-				padding: 0;
-			}
-			.form-group{
-				margin: 0 0 10px;
-			}
-			button{
-				@include font($Desktopfs1, $Desktoplh1);
-				padding: 15px;
-			}
-		}
-	}
-	.Popup{
-		max-width: 700px;
-		padding: 20px 15px;
-		.popup-content-holder{
-			max-height: 200px;
-		}
-	}
-	#footer{
-		.footer-top{
-			padding: 30px 0;
-			.container{
-				max-width: 850px;
-			}
-		}
-		.footer-column{
-			h6{
-				@include font($fs2, $lh2);
-				margin: 0 0 15px;
-			}
-			p{
-				@include font($Desktopfs1, $Desktoplh1);
-			}
-			.footer-nav{
-				li{
-					margin: 0 0 5px;
-				}
-				a{
-					@include font($Desktopfs1, $Desktoplh1);
-				}
-			}
-			dl{
-				dt{
-					svg{
-						height: 22px;
-						width: 22px;
-					}
-				}
-				a{
-					@include font($Desktopfs1, $Desktoplh1);
-				}
-			}
-			.social-nav{
-				li{
-					margin-right: 15px;
-				}
-				a{
-					svg{
-						height: 20px;
-						width: 20px;
-					}
-				}
-			}
-		}
-		.footer-bottom{
-			padding: 20px 0;
-			p{
-				@include font($Desktopfs1, $Desktoplh1);
-			}
-		}
-	}
-	.gallery-section3{
-		.youtube-holder{
-			width: 100%;
-		}
-		//remove these two classes when image section is uncommented
-		img{
-			width: 100%;
-		}
-	}
-	.belt-requirements{
-		ul{
-			li{
-				width: 33.33%;
-			}
-		}
-	}
-	.main-principle-section{
-		.principle-content-holder{
-			float: none;
-			width: 100%;
-			padding: 0 0 30px;
-		}
-		.principle-image-holder{
-			float: none;
-			width: 100%;
-		}
-		.student-box{
-			.youtube-holder{
-				float: none;
-				width: 100%;
-				height: 500px;
-			}
-			.student-creed-holder{
-				float: none;
-				width: 100%;
-				padding: 30px 0 0;
-			}
-		}
-	}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 850px;
+  }
+  .banner-section {
+    .container {
+      max-width: 800px;
+    }
+  }
+  #header {
+    .container {
+      max-width: 100%;
+    }
+    .header-top {
+      dl {
+        margin-left: 30px;
+      }
+      dt {
+        margin-right: 10px;
+      }
+    }
+    .logo {
+      width: 75px;
+    }
+    #main-nav {
+      ul {
+        a {
+          @include font($Desktopfs1, $Desktoplh1);
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+  .sidebar {
+    top: 125px;
+    .sidebar-menu-item {
+      padding: 5px;
+    }
+  }
+  .about-section {
+    ul {
+      li {
+        width: 50%;
+      }
+    }
+    .student-creed-list-holder {
+      img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+  .offer-section {
+    ul {
+      li {
+        width: 50%;
+        padding: 10px 20px;
+      }
+    }
+  }
+  .training-box-section {
+    .training-box {
+      height: 300px;
+      p {
+        @include font($Desktopfs1, $Desktoplh1);
+        height: 60px;
+      }
+    }
+  }
+  .information-section {
+    padding: 40px 0 20px;
+    .container {
+      max-width: 800px;
+    }
+    .info-text {
+      h4 {
+        @include font($fs3, $lh3);
+      }
+    }
+    .info-form {
+      input[type="text"],
+      input[type="password"],
+      input[type="search"],
+      input[type="email"] {
+        font-size: 16px;
+        line-height: 38px;
+        height: 50px;
+      }
+      textarea {
+        font-size: 16px;
+      }
+      .checkbox-holder {
+        padding: 0;
+      }
+      .form-group {
+        margin: 0 0 10px;
+      }
+      button {
+        @include font($Desktopfs1, $Desktoplh1);
+        padding: 15px;
+      }
+    }
+  }
+  .Popup {
+    max-width: 700px;
+    padding: 20px 15px;
+    .popup-content-holder {
+      max-height: 200px;
+    }
+  }
+  #footer {
+    .footer-top {
+      padding: 30px 0;
+      .container {
+        max-width: 850px;
+      }
+    }
+    .footer-column {
+      h6 {
+        @include font($fs2, $lh2);
+        margin: 0 0 15px;
+      }
+      p {
+        @include font($Desktopfs1, $Desktoplh1);
+      }
+      .footer-nav {
+        li {
+          margin: 0 0 5px;
+        }
+        a {
+          @include font($Desktopfs1, $Desktoplh1);
+        }
+      }
+      dl {
+        dt {
+          svg {
+            height: 22px;
+            width: 22px;
+          }
+        }
+        a {
+          @include font($Desktopfs1, $Desktoplh1);
+        }
+      }
+      .social-nav {
+        li {
+          margin-right: 15px;
+        }
+        a {
+          svg {
+            height: 20px;
+            width: 20px;
+          }
+        }
+      }
+    }
+    .footer-bottom {
+      padding: 20px 0;
+      p {
+        @include font($Desktopfs1, $Desktoplh1);
+      }
+    }
+  }
+  .gallery-section3 {
+    .youtube-holder {
+      width: 100%;
+    }
+    //remove these two classes when image section is uncommented
+    img {
+      width: 100%;
+    }
+  }
+  .belt-requirements {
+    ul {
+      li {
+        width: 33.33%;
+      }
+    }
+  }
+  .main-principle-section {
+    .principle-content-holder {
+      float: none;
+      width: 100%;
+      padding: 0 0 30px;
+    }
+    .principle-image-holder {
+      float: none;
+      width: 100%;
+    }
+    .student-box {
+      .youtube-holder {
+        float: none;
+        width: 100%;
+        height: 500px;
+      }
+      .student-creed-holder {
+        float: none;
+        width: 100%;
+        padding: 30px 0 0;
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 1023px){
-	.container{
-		max-width: 750px;
-	}
-	#header{
-		.logo{
-			width: 60px;
-		}
-		.header-top{
-			dl{
-				display: block;
-				@include font($mobilefs2, $mobilelh2);
-				margin: 2px 0;
-			}
-			dd{
-				strong{
-					height: 16px;
-					width: 16px;
-					border-width: 2px;
-				}
-			}
-		}
-		.header-bottom{
-			.menu-button{
-				display: block;
-				&.active{
-					svg{
-						@include font($fs3, $lh3);
-						&.open-svg{
-							display: none;
-						}
-						&.close-svg{
-							display: block;
-						}
-					}
-					+ #main-nav{
-						top: 62px;
-						visibility: visible;
-						opacity: 1;
-					}
-				}
-			}
-		}
-		#main-nav{
-			background: $bodyColor;
-			padding: 20px;
-			margin: 0;
-			position: absolute;
-			top: 100px;
-			left: 0;
-			right: 0;
-			z-index: 99;
-			visibility: hidden;
-			opacity: 0;
-			@include anim(0.5s);
-			ul{
-				li{
-					float: none;
-				}
-				a{
-					@include font($fs1, $lh1);
-					padding: 10px;
-				}
-			}
-		}
-	}
-	.sidebar{
-		display: none;
-	}
-	.banner-section{
-		.container{
-			max-width: 100%;
-		}
-	}
-	.gallery-section{
-		margin: 20px 0 50px;
-		ul{
-			li{
-				width: 100%;
-			}
-		}
-		.gallery-bg-holder{
-			height: 200px;
-		}
-	}
-	.about-section{
-		.student-creed-list-holder{
-			p{
-				@include font($Desktopfs1, $Desktoplh1);
-			}
-		}
-	}
-	.offer-section{
-		ul{
-			li{
-				padding: 10px;
-			}
-		}
-		.services-box{
-			margin: 30px 0 0;
-			p{
-				@include font($Desktopfs1, $Desktoplh1);
-			}
-		}
-	}
-	.training-section{
-		p{
-			@include font($fs1, $lh1);
-		}
-	}
-	.meet-section{
-		ul{
-			li{
-				width: 50%;
-			}
-		}
-		.meet-box{
-			padding: 0 0 80px;
-			.meet-box-details{
-				height: 80px;
-				padding: 10px;
-			}
-		}
-	}
-	.gallery-section2{
-		.photo-gallery{
-			float: none;
-			width: 100%;
-		}
-		.video-gallery{
-			float: none;
-			width: 100%;
-		}
-	}
-	.gallery-section3{
-		.youtube-holder{
-			height: 400px;
-		}
-		//remove these two classes when image section is uncommented
-		.video-gallery{
-			float: none;
-			width: 100%;
-		}
-	}
-	.information-section{
-		.info-form{
-			ul{
-				li{
-					width: 100%;
-				}
-			}
-		}
-	}
-	#footer{
-		text-align: center;
-		.footer-logo{
-			float: none;
-			width: 150px;
-			margin: 0 auto 30px;
-		}
-		.footer-column{
-			float: none;
-			width: 100%;
-			margin: 0 0 35px;
-			&.address-column{
-				width: 100%;
-				margin: 0;
-			}
-			h6{
-				margin: 0 0 10px;
-			}
-			p{
-				margin: 0;
-			}
-			.footer-nav{
-				li{
-					@include display(inline-block, top);
-					margin: 0 10px 5px;
-				}
-			}
-			.social-nav li{
-				float: none;
-				@include display(inline-block, top);
-				margin: 0 10px;
-			}
-			dl{
-				margin: 0;
-				&:last-child{
-					margin: 0;
-				}
-				dt{
-					float: none;
-					@include display(inline-block, top);
-				}
-				dd{
-					@include display(inline-block, top);
-				}
-			}
-		}
-		.footer-bottom{
-			p{
-				@include font($fs1, $lh1);
-			}
-		}
-	}
-	.our-vision-section{
-		ul{
-			li{
-				width: 50%;
-			}
-			.vision-box{
-				min-height: 130px;
-				.vision-icon-holder{
-					display: block;
-					text-align: center;
-					margin: 0;
-					img{
-						@include display(inline-block, top);
-					}
-				}
-				h3{
-					line-height: 17px;
-				}
-				p{
-					@include font($mobilefs2, $mobilelh2);
-					margin: 0;
-				}
-			}
-		}
-	}
-	.main-principle-section{
-		.student-box{
-			.youtube-holder{
-				height: 400px;
-			}
-		}
-	}
+@media screen and (max-width: 1023px) {
+  .tooltip {
+    height: auto !important;
+    width: 50% !important;
+  }
+  .container {
+    max-width: 750px;
+  }
+  #header {
+    .logo {
+      width: 60px;
+    }
+    .header-top {
+      dl {
+        display: block;
+        @include font($mobilefs2, $mobilelh2);
+        margin: 2px 0;
+      }
+      dd {
+        strong {
+          height: 16px;
+          width: 16px;
+          border-width: 2px;
+        }
+      }
+    }
+    .header-bottom {
+      .menu-button {
+        display: block;
+        &.active {
+          svg {
+            @include font($fs3, $lh3);
+            &.open-svg {
+              display: none;
+            }
+            &.close-svg {
+              display: block;
+            }
+          }
+          + #main-nav {
+            top: 62px;
+            visibility: visible;
+            opacity: 1;
+          }
+        }
+      }
+    }
+    #main-nav {
+      background: $bodyColor;
+      padding: 20px;
+      margin: 0;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      right: 0;
+      z-index: 99;
+      visibility: hidden;
+      opacity: 0;
+      @include anim(0.5s);
+      ul {
+        li {
+          float: none;
+        }
+        a {
+          @include font($fs1, $lh1);
+          padding: 10px;
+        }
+      }
+    }
+  }
+  .sidebar {
+    display: none;
+  }
+  .banner-section {
+    .container {
+      max-width: 100%;
+    }
+  }
+  .gallery-section {
+    margin: 20px 0 50px;
+    ul {
+      li {
+        width: 100%;
+      }
+    }
+    .gallery-bg-holder {
+      height: 200px;
+    }
+  }
+  .about-section {
+    .student-creed-list-holder {
+      p {
+        @include font($Desktopfs1, $Desktoplh1);
+      }
+    }
+  }
+  .offer-section {
+    ul {
+      li {
+        padding: 10px;
+      }
+    }
+    .services-box {
+      margin: 30px 0 0;
+      p {
+        @include font($Desktopfs1, $Desktoplh1);
+      }
+    }
+  }
+  .training-section {
+    p {
+      @include font($fs1, $lh1);
+    }
+  }
+  .meet-section {
+    ul {
+      li {
+        width: 50%;
+      }
+    }
+    .meet-box {
+      padding: 0 0 80px;
+      .meet-box-details {
+        height: 80px;
+        padding: 10px;
+      }
+    }
+  }
+  .gallery-section2 {
+    .photo-gallery {
+      float: none;
+      width: 100%;
+    }
+    .video-gallery {
+      float: none;
+      width: 100%;
+    }
+  }
+  .gallery-section3 {
+    .youtube-holder {
+      height: 400px;
+    }
+    //remove these two classes when image section is uncommented
+    .video-gallery {
+      float: none;
+      width: 100%;
+    }
+  }
+  .information-section {
+    .info-form {
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #footer {
+    text-align: center;
+    .footer-logo {
+      float: none;
+      width: 150px;
+      margin: 0 auto 30px;
+    }
+    .footer-column {
+      float: none;
+      width: 100%;
+      margin: 0 0 35px;
+      &.address-column {
+        width: 100%;
+        margin: 0;
+      }
+      h6 {
+        margin: 0 0 10px;
+      }
+      p {
+        margin: 0;
+      }
+      .footer-nav {
+        li {
+          @include display(inline-block, top);
+          margin: 0 10px 5px;
+        }
+      }
+      .social-nav li {
+        float: none;
+        @include display(inline-block, top);
+        margin: 0 10px;
+      }
+      dl {
+        margin: 0;
+        &:last-child {
+          margin: 0;
+        }
+        dt {
+          float: none;
+          @include display(inline-block, top);
+        }
+        dd {
+          @include display(inline-block, top);
+        }
+      }
+    }
+    .footer-bottom {
+      p {
+        @include font($fs1, $lh1);
+      }
+    }
+  }
+  .our-vision-section {
+    ul {
+      li {
+        width: 50%;
+      }
+      .vision-box {
+        min-height: 130px;
+        .vision-icon-holder {
+          display: block;
+          text-align: center;
+          margin: 0;
+          img {
+            @include display(inline-block, top);
+          }
+        }
+        h3 {
+          line-height: 17px;
+        }
+        p {
+          @include font($mobilefs2, $mobilelh2);
+          margin: 0;
+        }
+      }
+    }
+  }
+  .main-principle-section {
+    .student-box {
+      .youtube-holder {
+        height: 400px;
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 767px){
-	.banner-section{
-		.caption{
-			h1{
-				@include font($fs3, $lh3);
-			}
-		}
-	}
-	.offer-section{
-		ul{
-			li{
-				width: 100%;
-			}
-		}
-		.services-box{
-			min-height: 100%;
-		}
-	}
-	.training-box-section{
-		margin: 0;
-	}
-	.meet-section{
-		.container{
-			padding: 0;
-		}
-		ul{
-			li{
-				padding: 10px;
-			}
-		}
-		.meet-box{
-			.meet-box-details{
-				h3{
-					@include font($Desktopfs1, $Desktoplh1);
-				}
-			}
-		}
-	}
-	#footer{
-		.footer-column{
-			dl{
-				a{
-					@include font($fs1, $lh1);
-				}
-			}
-		}
-	}
-	.Popup{
-		width: 100%;
-		max-width: 300px;
-		padding: 20px 10px;
-		.popup-close-button{
-			height: 30px;
-			width: 30px;
-			top: -15px;
-			right: -15px;
-		}
-		.popup-image-holder{
-			display: block;
-			width: 100%;
-		}
-		.popup-content-holder{
-			display: block;
-			width: 100%;
-			padding: 20px 0 0;
-		}
-	}
-	.gallery-section2{
-		a{
-			@include font($fs2, $lh2);
-		}
-	}
-	.gallery-section3{
-		.youtube-holder{
-			height: 220px;
-		}
-	}
-	.parkland-box-holder{
-		max-width: 400px;
-		margin: 0 auto;
-		h2{
-			@include font($fs3, $lh3);
-		}
-		.parkland-box{
-			float: none;
-			width: 100%;
-			padding: 0 0 50px;
-		}
-		h4{
-			a{
-				@include font($fs2, $lh2);
-			}
-		}
-	}
-	.belt-requirements{
-		ul{
-			li{
-				width: 50%;
-			}
-		}
-	}
-	.main-principle-section{
-		.student-box{
-			.youtube-holder{
-				height: 300px;
-			}
-			.student-creed-holder{
-				ul{
-					li{
-						display: block;
-						width: 100%;
-						@include clearfix();
-					}
-				}
-			}
-		}
-	}
+@media screen and (max-width: 767px) {
+  .tooltip {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .banner-section {
+    .caption {
+      h1 {
+        @include font($fs3, $lh3);
+      }
+    }
+  }
+  .offer-section {
+    ul {
+      li {
+        width: 100%;
+      }
+    }
+    .services-box {
+      min-height: 100%;
+    }
+  }
+  .training-box-section {
+    margin: 0;
+  }
+  .meet-section {
+    .container {
+      padding: 0;
+    }
+    ul {
+      li {
+        padding: 10px;
+      }
+    }
+    .meet-box {
+      .meet-box-details {
+        h3 {
+          @include font($Desktopfs1, $Desktoplh1);
+        }
+      }
+    }
+  }
+  #footer {
+    .footer-column {
+      dl {
+        a {
+          @include font($fs1, $lh1);
+        }
+      }
+    }
+  }
+  .Popup {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px 10px;
+    .popup-close-button {
+      height: 30px;
+      width: 30px;
+      top: -15px;
+      right: -15px;
+    }
+    .popup-image-holder {
+      display: block;
+      width: 100%;
+    }
+    .popup-content-holder {
+      display: block;
+      width: 100%;
+      padding: 20px 0 0;
+    }
+  }
+  .gallery-section2 {
+    a {
+      @include font($fs2, $lh2);
+    }
+  }
+  .gallery-section3 {
+    .youtube-holder {
+      height: 220px;
+    }
+  }
+  .parkland-box-holder {
+    max-width: 400px;
+    margin: 0 auto;
+    h2 {
+      @include font($fs3, $lh3);
+    }
+    .parkland-box {
+      float: none;
+      width: 100%;
+      padding: 0 0 50px;
+    }
+    h4 {
+      a {
+        @include font($fs2, $lh2);
+      }
+    }
+  }
+  .belt-requirements {
+    ul {
+      li {
+        width: 50%;
+      }
+    }
+  }
+  .main-principle-section {
+    .student-box {
+      .youtube-holder {
+        height: 300px;
+      }
+      .student-creed-holder {
+        ul {
+          li {
+            display: block;
+            width: 100%;
+            @include clearfix();
+          }
+        }
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 480px){
-	#header{
-		.header-top{
-			dl{
-				display: block;
-				@include font($mobilefs1, $mobilelh1);
-			}
-		}
-	}
-	.banner-section{
-		.caption-holder{
-			min-height: 450px;
-		}
-		.caption{
-			h1{
-				@include font($fs2, $lh2);
-			}
-			p{
-				@include font($fs1, $lh1);
-				&.welcome{
-					@include font($fs2, $lh2);
-					padding: 10px 0;
-				}
-			}
-		}
-	}
-	.meet-section ul li{
-		width: 100%;
-	}
-	.gallery-section{
-		.gallery-text-holder{
-			h4{
-				@include font($fs2, $lh2);
-			}
-			p{
-				@include font($fs1, $lh1);
-			}
-		}
-	}
-	.about-section{
-		ul{
-			li{
-				width: 100%;
-			}
-		}
-	}
-	.belt-requirements{
-		ul{
-			li{
-				width: 100%;
-			}
-		}
-	}
-	.our-vision-section{
-		ul{
-			li{
-				width: 100%;
-			}
-			.vision-box{
-				min-height: 100%;
-			}
-		}
-	}
-	.main-principle-section{
-		.student-box{
-			margin: 0 0 50px;
-			.youtube-holder{
-				height: 200px;
-			}
-		}
-		p{
-			@include font($fs1, $lh1);
-		}
-		.student-creed-list-holder{
-			.student-creed-icon-holder{
-				img{
-					display: block;
-					height: 24px;
-					width: 24px;
-				}
-			}
-		}
-	}
+@media screen and (max-width: 480px) {
+  .tooltip {
+    height: auto !important;
+    width: 100% !important;
+  }
+  #header {
+    .header-top {
+      dl {
+        display: block;
+        @include font($mobilefs1, $mobilelh1);
+      }
+    }
+  }
+  .banner-section {
+    .caption-holder {
+      min-height: 450px;
+    }
+    .caption {
+      h1 {
+        @include font($fs2, $lh2);
+      }
+      p {
+        @include font($fs1, $lh1);
+        &.welcome {
+          @include font($fs2, $lh2);
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+  .meet-section ul li {
+    width: 100%;
+  }
+  .gallery-section {
+    .gallery-text-holder {
+      h4 {
+        @include font($fs2, $lh2);
+      }
+      p {
+        @include font($fs1, $lh1);
+      }
+    }
+  }
+  .about-section {
+    ul {
+      li {
+        width: 100%;
+      }
+    }
+  }
+  .belt-requirements {
+    ul {
+      li {
+        width: 100%;
+      }
+    }
+  }
+  .our-vision-section {
+    ul {
+      li {
+        width: 100%;
+      }
+      .vision-box {
+        min-height: 100%;
+      }
+    }
+  }
+  .main-principle-section {
+    .student-box {
+      margin: 0 0 50px;
+      .youtube-holder {
+        height: 200px;
+      }
+    }
+    p {
+      @include font($fs1, $lh1);
+    }
+    .student-creed-list-holder {
+      .student-creed-icon-holder {
+        img {
+          display: block;
+          height: 24px;
+          width: 24px;
+        }
+      }
+    }
+  }
 }

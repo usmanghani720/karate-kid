@@ -1,19 +1,23 @@
-.control-dots{
-    visibility: hidden !important;
-    display: none !important;
+.control-dots {
+  visibility: hidden !important;
+  display: none !important;
 }
-.carousel-status{
-    visibility: hidden !important;
-    display: none !important;;
+.carousel-status {
+  visibility: hidden !important;
+  display: none !important;
 }
-.list-paragraph{
-    margin-left: 20px;
-    display: list-item;
-    list-style-type: disc;
-    list-style-position: inside;
+.list-paragraph {
+  margin-left: 20px;
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
 }
-.status-message{
-    color: #fff;
-    text-align: center;
-    padding-top: 10px;
+.status-message {
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+.tooltip {
+  height: auto !important;
+  width: 20% !important;
 }
