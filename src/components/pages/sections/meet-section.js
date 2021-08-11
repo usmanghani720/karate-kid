@@ -45,11 +45,6 @@ const meetList = [
     info: "My name is Oscar Washington. I am a 4th degree black belt and the head instructor at the Sunrise location. I have been training at Evolution Martial Arts for 12 years and have been teaching for 5 years.  I started martial arts because I was bullied growing up;  martial arts gave me the confidence and courage to stand up to those bullies.   So the reason I still train and even teach now is to set an example to other students who might be going through the same challenges that I did to show them how much martial arts could impact your life.",
   },
   {
-    meetIcon: meetIcon9,
-    meetTitle: "MR. Valladares",
-    meetDesignation: "Instructor",
-  },
-  {
     meetIcon: meetIcon13,
     meetTitle: "MS. Arielle",
     meetDesignation: "Assistant Instructor",
@@ -84,6 +79,11 @@ const meetList = [
     meetTitle: "MR. Marcus Brimage",
     meetDesignation: "Yoga and Kungfu Instructor",
   },
+  {
+    meetIcon: meetIcon9,
+    meetTitle: "MR. Valladares",
+    meetDesignation: "Master Instructor",
+  },
 ];
 
 const officeList = [
@@ -92,6 +92,12 @@ const officeList = [
     meetTitle: "MRS. Monica",
     meetDesignation: "Office Master",
     info: "Originally from New York. I have lived in Florida for the past 27 yrs. Mother of 4 wonderful children. My son had trained at Evolution Martial Arts for about 6 years and that's how I ended up here. I've been with them for the past 6 yrs.",
+  },
+  {
+    meetIcon: meetIcon13,
+    meetTitle: "MS. Arielle",
+    meetDesignation: "Assistant Instructor",
+    info: "Hi my name is Arielle Hernandez and I have been training at EMA for 6 years. I am currently a Red Belt and based on my experience, I have not only learned how to defend myself but I was also taught some valuable life lessons along the way that I will never forget. My goals are to help others like my instructors have helped me and to always put my everything in to what I do. I decided to take on the roles of being both an assistant instructor and the office lady because I wanted to give back to the school because it has given me so much. EMA has always been a second home for me so I wanted to do everything I could to pay back all the kindness and growth that was shown to me. The reason I teach is because I want to help other by not only teaching them martial arts but also giving them important life lessons like I was given that will stick with them for a life time to come.",
   },
 ];
 
