@@ -144,7 +144,7 @@ class InformationSection extends React.Component {
                 </div>
                 <ReCAPTCHA
                   ref={recaptchaRef}
-                  sitekey="6Le6qYkUAAAAAPV6uTAbMO6h4ElsQBV5OuJIXlIV"
+                  sitekey="6LfiqPMbAAAAAPYh-WzN0FK9HwpVDIyzpM8auSws"
                   onChange={this.onChange.bind(this)}
                 />
                 <div className="input-holder">
