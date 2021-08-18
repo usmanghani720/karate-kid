@@ -35,12 +35,12 @@ const sidebarMenuTopList = [
 
 const sidebarMenuBottomList = [
   {
-    sidebarIcon: sidebarIcon5,
-    sidebarTitle: "Sunrise",
+    sidebarIcon: sidebarIcon6,
+    sidebarTitle: "Parkland",
   },
   {
-    sidebarIcon: sidebarIcon6,
-    sidebarTitle: "ParkLand",
+    sidebarIcon: sidebarIcon5,
+    sidebarTitle: "Sunrise",
   },
 ];
 
@@ -54,7 +54,7 @@ class Sidebar extends React.Component {
   render() {
     return (
       <aside id="sidebar" className="sidebar">
-        {this.state.showModal === "ParkLand" ? <ParkLand /> : null}
+        {this.state.showModal === "Parkland" ? <ParkLand /> : null}
         {this.state.showModal === "Sunrise" ? <SunRise /> : null}
         <div className="sidebar-top">
           <ul>

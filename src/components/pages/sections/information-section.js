@@ -16,10 +16,10 @@ class InformationSection extends React.Component {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_rh00suv",
-        "template_83e4abd",
+        "service_z4k0n1h",
+        "template_jtbln0g",
         e.target,
-        "user_ee6WXesOWCxQZ2DzHcoHg"
+        "user_l4S3chHSb90UDpUXxDYPV"
       )
       .then(
         (result) => {

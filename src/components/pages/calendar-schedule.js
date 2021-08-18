@@ -4,6 +4,8 @@ import GallerySection from "./gallery-section";
 
 import parklandC from "../../images/parkland-calendar.png";
 import sunriseC from "../../images/sunrise-calendar.png";
+import parklandSchedule from "../../images/parkland-schedule.png";
+import sunriseSchedule from "../../images/sunrise-schedule.png";
 import emaparklandcalendar from "../../pdf/emaparklandcalendar.pdf";
 import emaparklandschedule from "../../pdf/emaparklandschedule.pdf";
 import emasunrisecalendar from "../../pdf/emasunrisecalendar.pdf";
@@ -16,7 +18,7 @@ class CalendarSchedule extends React.Component {
         <GallerySection />
 
         <div id="parkland-block" className="parkland-box-holder">
-          <h2>ParkLand Calendar & Schedule</h2>
+          <h2>Parkland Calendar & Schedule</h2>
           <div className="parkland-box">
             <div className="image-holder">
               <img src={parklandC} alt="enlargeC" />
@@ -29,7 +31,7 @@ class CalendarSchedule extends React.Component {
           </div>
           <div className="parkland-box">
             <div className="image-holder">
-              <img src={parklandC} alt="enlargeC" />
+              <img src={parklandSchedule} alt="enlargeC" />
             </div>
             <h4>
               <a href={emaparklandschedule} target="blank">
@@ -53,7 +55,7 @@ class CalendarSchedule extends React.Component {
           </div>
           <div className="parkland-box">
             <div className="image-holder">
-              <img src={sunriseC} alt="enlargeC" />
+              <img src={sunriseSchedule} alt="enlargeC" />
             </div>
             <h4>
               <a href={emasunriseschedule} target="_blank">
