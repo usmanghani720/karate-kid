@@ -25,7 +25,7 @@ import redToBrown from "../../pdf/redtobrownworksheet.pdf";
 import brownToBStripe from "../../pdf/WORKSHEETBROWNTOBSTRIPE.pdf";
 import blackStripeToBlack from "../../pdf/blackstripetoblack.pdf";
 import secondDegree from "../../pdf/2nddegree.pdf";
-import children from "../../pdf/Intent_to_Promote_TONY.pdf";
+import children from "../../pdf/children_intent_to_promote.pdf";
 import adults from "../../pdf/adult_intent_to_promote.pdf";
 import studInfo from "../../pdf/studinfo.pdf";
 import guest from "../../pdf/guestpass.pdf";

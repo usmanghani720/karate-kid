@@ -29,7 +29,7 @@ class CalendarSchedule extends React.Component {
           </div>
           <div className="parkland-box">
             <div className="image-holder">
-              <img src={sunriseC} alt="enlargeC" />
+              <img src={parklandC} alt="enlargeC" />
             </div>
             <h4>
               <a href={emaparklandschedule} target="blank">
@@ -43,7 +43,7 @@ class CalendarSchedule extends React.Component {
           <h2>Sunrise Calendar & Schedule</h2>
           <div className="parkland-box">
             <div className="image-holder">
-              <img src={parklandC} alt="enlargeC" />
+              <img src={sunriseC} alt="enlargeC" />
             </div>
             <h4>
               <a href={emasunrisecalendar} target="_blank">
