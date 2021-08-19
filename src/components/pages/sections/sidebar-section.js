@@ -62,7 +62,7 @@ class Sidebar extends React.Component {
               <li key={sidebarMenuTopItem.sidebarTitle}>
                 <NavHashLink
                   to={sidebarMenuTopItem.sidebarUrl}
-                  activeClassName="selected"
+                  activeclassname="selected"
                   scroll={(el) => el.scrollIntoView({ behavior: "smooth" })}
                 >
                   <div className="sidebar-menu-item">
@@ -84,7 +84,7 @@ class Sidebar extends React.Component {
                 {sidebarMenuBottomItem.sidebarUrl ? (
                   <NavHashLink
                     to={sidebarMenuBottomItem.sidebarUrl}
-                    activeClassName="selected"
+                    activeclassname="selected"
                     scroll={(el) => el.scrollIntoView({ behavior: "smooth" })}
                   >
                     <div className="sidebar-menu-item">

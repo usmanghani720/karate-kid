@@ -34,7 +34,7 @@ class AddressNav extends React.Component {
           <dl key={menuItem.addressName}>
             <dt>{menuItem.addressIcon}</dt>
             <dd>
-              <a exact activeClassName="active" href={menuItem.addressUrl} target="_blank"> 
+              <a exact activeclassname="active" href={menuItem.addressUrl} target="_blank"> 
                 {menuItem.addressName}
               </a>
             </dd>

@@ -29,7 +29,7 @@ class SocialNav extends React.Component {
             <li key={menuItem.socialUrl}>
               <a
                 exact
-                activeClassName="active"
+                activeclassname="active"
                 href={menuItem.socialUrl}
                 target="_blank"
               >

@@ -18,7 +18,7 @@ class FooterNav extends React.Component {
             <li key={menuItem.listName}>
               <NavHashLink
                 exact
-                activeClassName="selected"
+                activeclassname="selected"
                 to={`/` + menuItem.listUrl}
                 scroll={(el) => el.scrollIntoView({ behavior: "smooth" })}
               >

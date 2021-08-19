@@ -16,7 +16,7 @@ class MainNav extends React.Component {
         <ul>
           {menuList.map((menuItem) => (
             <li key={menuItem.listName}>
-              <NavLink exact activeClassName="active" to={menuItem.listUrl}>
+              <NavLink exact activeclassname="active" to={menuItem.listUrl}>
                 {menuItem.listName}
               </NavLink>
             </li>
