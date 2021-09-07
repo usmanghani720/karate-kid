@@ -6,7 +6,7 @@ import meetIcon5 from "../../../images/m5.jpg";
 import meetIcon6 from "../../../images/m6.png";
 import meetIcon7 from "../../../images/m7.jpg";
 import meetIcon8 from "../../../images/m8.jpg";
-import meetIcon9 from "../../../images/m9.png";
+import meetIcon9 from "../../../images/pedro-mantis.jpg";
 import meetIcon15 from "../../../images/m15.jpg";
 import meetIcon14 from "../../../images/m14.jpg";
 import meetIcon13 from "../../../images/m13.jpg";
