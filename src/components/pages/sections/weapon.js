@@ -19,10 +19,10 @@ class Weapon extends React.Component {
           </button>
           <React.Fragment>
             <div className="popup-image-holder">
-              <img src={trainingIcon6} alt="Weapon" />
+              <img src={trainingIcon6} alt="Weapons" />
             </div>
             <div className="popup-content-holder">
-              <h2 style={{ borderBottom: "none" }}>Weapon</h2>
+              <h2 style={{ borderBottom: "none" }}>Weapons</h2>
               <p style={{ color: "#000" }}>
                 Evolution Martial Arts weapons program offers a complete weapons
                 experience.

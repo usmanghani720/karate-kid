@@ -28,12 +28,12 @@ class Grappling extends React.Component {
                 ground fighting experience.
               </p>
               <p style={{ color: "#000" }}>
-                Combining the takedowns of judo, the reversals of wrestling and
+                Our program combines the takedowns of judo, the reversals of wrestling and
                 the submissions of Jujitsu and Russian Sambo.
               </p>
               <p style={{ color: "#000" }}>
-                Students will enjoy an amazing workout while learning effective
-                self defense against any ground fighting situation
+                Program participants enjoy an amazing workout while learning effective
+                self defense against any ground fighting situation.
               </p>
             </div>
           </React.Fragment>
