@@ -46,7 +46,7 @@ class Footer extends React.Component {
         <div className="footer-bottom">
           <div className="container">
             <p>
-              Copyright &copy; 2011, All Rights Reserved. All Material is
+              Copyright &copy; 2022, All Rights Reserved. All Material is
               Property of <a href="/">Evolution Martial Arts</a>
             </p>
           </div>
