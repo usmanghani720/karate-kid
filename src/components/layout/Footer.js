@@ -27,7 +27,7 @@ class Footer extends React.Component {
             <div className="footer-column">
               <h6>Our Vision</h6>
               <p>
-                Our Black belts of today become the leaders of tomorrow.{" "}
+                Our Black Belts of today become the leaders of tomorrow.{" "}
                 <span style={{ cursor: 'pointer', color: '#fd1812' }} onClick={this.changeShowModal.bind(this)}>Read more</span>{" "}
                 about the core elements that make up our vision.
               </p>

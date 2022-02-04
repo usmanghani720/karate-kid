@@ -24,11 +24,11 @@ class Extreme extends React.Component {
             <div className="popup-content-holder">
               <h2 style={{ borderBottom: "none" }}>Extreme</h2>
               <p style={{ color: "#000" }}>
-                Evolution Martial Arts' Extreme program will help become the
+                Evolution Martial Arts' Extreme program will help you become the
                 next martial arts superstar. Combining flashy kicks, gymnastic
                 flips and high energy music, Evolution Martial Arts' Extreme
                 classes will make you stand out at every demonstration or
-                competition
+                competition.
               </p>
             </div>
           </React.Fragment>

@@ -121,21 +121,20 @@ class Principles extends React.Component {
 						<div className="principle-content-holder">
 							<h2>Main Principles</h2>
 							<p>In the broad spectrum of martial arts styles, our style of Tae Kwon Do is referred to as
-								"Freestyle Tae Kwon Do." This means that we have chosen to incorporate techniques
-								from other styles into our curriculum in order to provide you with the best martial arts
-								training possible. We have carefully selected the techniques from different systems that
-								are effective, practical and beneficial for your martial arts education.
-								This evolving philosophy is the essence of Evolution Martial Arts.</p>
-							<p>Evolution Martial Arts is a blended system called mixed martial arts. With a base of
-								Tae Kwon Do (TKD), we incorporate techniques from Brazilian Jujitsu,
-								Israeli Self Defense (Krav Maga), Shorin Ryu Karate, Kobudo Weapons, Shoalin Temple Boxing Kung Fu,
-								Western Boxing and Muay Thai. TKD is a Korean style of martial art that came to the
-								USA as a result of Americans' exposure to it during the Korean War. TKD, which means
-								"The way of foot and hand", is the most popular style of martial arts practiced in the USA.
-								Evolution Martial arts is a mixed martial arts system." This means that we have chosen to incorporate
-								techniques from other styles into our curriculum in order to provide you with the best martial arts
-								training
-								possible.</p>
+							   "Freestyle Tae Kwon Do." This means that we have chosen to incorporate techniques
+							   from other styles into our curriculum in order to provide you with the best martial arts
+							   training possible. We have carefully selected the techniques from different systems that
+							   are effective, practical and beneficial for your martial arts education.
+							   This evolving philosophy is the essence of Evolution Martial Arts.</p>
+							<p>We incorporate techniques from Brazilian Jujitsu, Israeli Self Defense (Krav Maga), Shorin 
+							   Ryu Karate, Kobudo Weapons and Shaolin Temple Kung Fu.
+							</p>
+							<p>
+							   Besides Tae Kwon Do, Evolution Martial Arts offers training in authentic traditional Northern
+							   and Southern Shaolin Kungfu styles as well as Tai Chi. 
+							   Kungfu styles include Praying Mantis, Tiger, White Crane, Wing Chung and others. Tai Chi
+							   styles include some of the most popular systems such as Yang and Chen. 
+							</p>
 						</div>
 						<div className="principle-image-holder">
 							<img src={imageMainPrincipal} alt="Main Principles" />

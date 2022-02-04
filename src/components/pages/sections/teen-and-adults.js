@@ -24,21 +24,19 @@ class TeenAndAdults extends React.Component {
             <div className="popup-content-holder">
               <h2 style={{ borderBottom: "none" }}>Teens & Adults</h2>
               <p style={{ color: "#000" }}>
-                The area #1 martial arts school invites you to try The Ultimate
-                Fat Burning Workout! Evolution Martial Arts' teens and adults
-                class is a high energy, exciting and explosive fitness and
-                conditioning workout that combines traditional martial arts with
-                modern self defense.
+                The area's #1 martial arts school invites you to try the Ultimate
+                Workout! Our teens and adults class is a high energy, exciting and
+                explosive fitness and conditioning workout that combines traditional
+                martial arts with modern self defense.
               </p>
               <p style={{ color: "#000" }}>
-                Evolution Martial Arts' specially designed teens and adults
-                class is taught by Nationally certified instructors and is
-                guaranteed to get you in the shape you've always wanted while
-                teaching you valuable defense skills. From your shoulders to
-                your calves, you'll become leaner and stronger, you'll tighten
-                and tone your body, increase your confidence and reduce your
-                stress level while having fun in a clean, safe family
-                environment.
+                Our specially designed teens and adults class is taught by 
+                Nationally certified instructors and is guaranteed to get 
+                you in the shape you've always wanted while teaching you valuable
+                defense skills. From your shoulders to your calves, you'll become
+                leaner and stronger, tighten and tone your body, increase your 
+                confidence and reduce your stress level while having fun in a clean,
+                safe family environment.
               </p>
             </div>
           </React.Fragment>

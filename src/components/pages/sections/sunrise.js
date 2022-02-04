@@ -26,8 +26,8 @@ class SunRise extends React.Component {
                 Evolution Martial Arts - Sunrise
               </h2>
               <p style={{ color: "#000" }}>
-                Our Sunrise school is conveniently located in Sunrise Shoppes in
-                Sunrise.
+                Our Sunrise school is conveniently located in the Pine Plaza
+                shopping center in Sunrise.
               </p>
               <p>
                 We serve the Sunrise, Lauderhill, Tamarac and Plantation areas.
@@ -36,7 +36,10 @@ class SunRise extends React.Component {
                 We are located at <br /> 4317 North Pine Island Road <br />{" "}
                 Sunrise, FL 33351
                 <br />
-                954.572.7970
+                <a exact activeclassname="active" href={"tel:954.572.7970"} target="_blank"> 
+                {"954.572.7970"}
+                </a>
+                
               </p>
               <a
                 href="https://www.google.com/maps/place/4317+N+Pine+Island+Rd,+Sunrise,+FL+33351,+USA/@26.178251,-80.267782,14z/data=!4m5!3m4!1s0x88d9060427b90bb5:0xee77fc05a71cc606!8m2!3d26.1775979!4d-80.269171?hl=en"

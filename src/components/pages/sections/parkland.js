@@ -26,7 +26,7 @@ class ParkLand extends React.Component {
                 Evolution Martial Arts - Parkland
               </h2>
               <p style={{ color: "#000" }}>
-                Our Parkland school is conveniently located in Parkside Shoppes
+                Our Parkland school is conveniently located in Parkland Town Center
                 in Parkland.
               </p>
               <p>We serve the Parkland, Coral Springs and Boca Raton areas.</p>
@@ -34,7 +34,10 @@ class ParkLand extends React.Component {
                 We are located at <br /> 6702 Parkside Drive <br /> Parkland, FL
                 33067
                 <br />
-                954.796.4911
+                <a exact activeclassname="active" href={"tel:9545727970"} target="_blank"> 
+                {"954.796.4911"}
+                </a>
+                
               </p>
               <a
                 href="https://www.google.com/maps?f=q&source=embed&hl=en&geocode&q=6702+parkside+drive+parkland,+fl+33067&aq&sll=26.310735,-80.222466&sspn=0.047933,0.104628&vpsrc=0&ie=UTF8&hq&hnear=6702+Parkside+Dr,+Parkland,+Florida+33067&z=14&ll=26.310735,-80.222466"

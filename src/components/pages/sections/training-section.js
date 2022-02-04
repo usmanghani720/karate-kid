@@ -34,7 +34,7 @@ const programList = [
   },
   {
     icon: trainingIcon6,
-    title: "Weapon",
+    title: "Weapons",
   },
 ];
 class TrainingSection extends React.Component {
@@ -53,16 +53,16 @@ class TrainingSection extends React.Component {
         {this.state.showModal === "Teens & Adults" ? <TeenAndAdults /> : null}
 		{this.state.showModal === "Grappling" ? <Grappling /> : null}
 		{this.state.showModal === "Extreme" ? <Extreme /> : null}
-		{this.state.showModal === "Weapon" ? <Weapon /> : null}
+		{this.state.showModal === "Weapons" ? <Weapon /> : null}
         <div className="container">
           <h6>Training Programs</h6>
           <p>
-            At Evolution Martial Arts, We Recognize That Training Expectations
-            Differ At Each Age Level. When We Are Young, We Are Learning The
-            Basics Which Will Enable Us To Endure A More Vigorous Level Of
-            Training As We Get Older. At Evolution Artial Arts, Our Programs Are
-            Specially Designed To Allow Our Students The Ability To Enjoy The
-            Most That They Can For Their Age Level.
+            At Evolution Martial Arts, We recognize that training expectations
+            differ at each age level. When we are young, we are learning the
+            basics which will enable us to endure a more vigorous level of
+            training as we get older. Our programs are specially designed to
+            allow our students to progress and enjoy the most they can for their
+            age level.
           </p>
           <ul style={{ paddingTop: "50px" }}>
             {programList.map((program) => (

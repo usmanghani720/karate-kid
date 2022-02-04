@@ -17,13 +17,13 @@ const galleryList = [
     galleryClass: "gallery-box1 gallery-bg2",
     galleryImage: galleryBg2,
     galleryHeading: "Free Classes",
-    galleryParagraph: "Bring a Friend And Free Trial Classes",
+    galleryParagraph: "Bring-a-Friend And Free Trial Classes",
   },
   {
     galleryClass: "gallery-box1 gallery-bg3",
     galleryImage: galleryBg3,
     galleryHeading: "Special",
-    galleryParagraph: "4 Weeks Classes Free Registration Free Uniform No Contracts",
+    galleryParagraph: "4 Weeks of Classes, Free Registration, Free Uniform, No Contracts",
   },
 ];
 
@@ -83,8 +83,8 @@ class GallerySection extends React.Component {
               style={{ backgroundImage: `url(${galleryBg4})` }}
             >
               <div className="gallery-text-holder">
-                <h4>Awesome</h4>
-                <p>Birthday Parties..!! Call To book your Today</p>
+                <h4>Awesome Birthday Parties..!!</h4>
+                <p> Call to book Yours Today!</p>
               </div>
             </div>
           </div>

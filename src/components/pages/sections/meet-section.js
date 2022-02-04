@@ -61,7 +61,7 @@ const assistanInstructorsList = [  {
 },
 {
   meetIcon: andresMeetIcon,
-  meetTitle: "Mr. Andres Bustamante",
+  meetTitle: "MR. Andres Bustamante",
   meetDesignation: "BBLP Assistant Instructor",
   info: "“My name is Andres Bustamante, I am a student and instructor’s assistant at Evolution Martial Arts. At the time of writing this I have been training at EMA for about three and a half years. I use martial arts to further the harmony between my mind, body and nature. I choose to live a balanced, flourishing, and complete life. The myriad of styles I train in are: Korean Taekwondo, Chinese Kung Fu, Brazilian Jiu Jitsu, Japanese Karate, Israeli Krav Maga, Muay Thai, as well as various weapons & weapons styles. Finally as I’m penning this, I am currently a brown belt, and am training to reach my blackbelt within less than one year.",
 },

@@ -117,17 +117,14 @@ class TrainingBoxSection extends React.Component {
             </React.Fragment>
             <React.Fragment>
               <div className="popup-image-holder">
-                <img src={trainingIcon6} alt="Weapon" />
+                <img src={trainingIcon6} alt="Weapons" />
               </div>
               <div className="popup-content-holder">
-                <h2>Weapon</h2>
+                <h2>Weapons</h2>
                 <p>
                   Evolution Martial Arts weapons program offers a complete
-                  weapons experience.
-                </p>
-                <p>
-                  Combining the skill of traditional weapons, with the
-                  practicality of modern self defence
+                  weapons experience, combining the skill of traditional weapons, with the
+                  practicality of modern self defence.
                 </p>
                 <p>
                   Learn Kobudo weapons (nunchuck, bo, kama, sai, tonfa and
